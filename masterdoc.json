@@ -1,0 +1,13 @@
+[
+  {
+    "Name": "Microsoft Digital STU AVD",
+    "Language": "English",
+    "Files": [
+	    {
+        "RawFilePath": "https://raw.githubusercontent.com/Eddevinc/AVD-STU-DEMO/main/AVD_DEMO.md",
+        "Order": 1
+      },
+]
+  }
+  
+  ]
