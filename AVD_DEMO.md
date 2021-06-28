@@ -61,29 +61,3 @@ In this demo, we will access the Desktop and RemoteApps assigned to an end user 
 1. Upon successful Activation, the user can use the M365 Apps. 
 
    ![ws name.](media/img8.png)
-
-
-- End user login with access to only RemoteApps 
-  - Login with AVD win32 Client 
-  - Login with WebClient 
-
-
-- End user login with access to only DAG
-  - Login with AVD win32 Client 
-   - Subscribe with feed URL 
-  - Login with WebClient
-
-
-**End user Experience:**
-  - Demo Overview 
-  - AVD Login experience 
-    - Login with User 1 who has NO DAG access: 
-    - Login with AVD win32 Client 
-
-Login with WebClient 
-
-Login with User 2 who has ONLY APP access: 
-
-Login with AVD  
-
-Login with WebClient 
