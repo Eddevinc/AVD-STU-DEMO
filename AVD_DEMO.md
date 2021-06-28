@@ -70,8 +70,7 @@ In this demo, we will access the Desktop and RemoteApps assigned to an end user 
 
 - End user login with access to only DAG
   - Login with AVD win32 Client 
-  
-    -Subscribe with feed URL 
+   - Subscribe with feed URL 
   - Login with WebClient
 
 
