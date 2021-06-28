@@ -119,4 +119,4 @@ In this demo, we will access the Desktop and RemoteApps assigned to an end user 
 
 7. Upon successful Activation, the user can use the M365 Apps. 
 
-   ![ws name.](media/img8.png)
+   ![ws name.](media/img15.png)
