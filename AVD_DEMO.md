@@ -63,3 +63,60 @@ In this demo, we will access the Desktop and RemoteApps assigned to an end user 
 1. Upon successful Activation, the user can use the M365 Apps. 
 
    ![ws name.](media/img8.png)
+
+
+
+## **Task 2: Access the Published Applications and Desktop using AVD Client**
+
+In this demo, we will access the Desktop and RemoteApps assigned to an end user using a AVD Client.
+
+
+1. Launch AVD Client on your JumpVM.
+
+>**Note:** If you are already logged in as the end user, jump to *step 3*.
+
+1. In AVD desktop client click on **Subscribe**.
+
+   ![ws name.](media/img9.png)
+
+>**Note:** If you are already logged in as the end user, jump to *step 3*.
+
+1. Enter the credentials as below:
+
+   - Enter the username as **Erika.6182@AVDDemo.com** and click **Next**.
+   
+
+   ![ws name.](media/img10.png)
+   
+   
+   - Enter the password and click **Sign in**.
+   
+
+   ![ws name.](media/img11.png)
+
+
+>**Note:** If there's a dialog box with *More information required*, select **Skip for now option**.
+>![ws name.](media/img12.png)
+>
+
+1. The RemoteApps and the Workspace published to the logged in user will show up, click on **Excel** application to access it.
+
+   ![ws name.](media/img13.png)
+   
+
+1. Enter the credentials for *Erika.6182@AVDDemo.com* and click on **Submit**.
+
+   ![ws name.](media/img14.png)
+
+1. Once signed in, because this is the first login for the user, the M365 Apps will require Activation which is acquired online based on the user licenses, Click on **Sign In**.
+
+   ![ws name.](media/img7.png)
+   
+>**Talk through tip:**
+>The first login requires M365 App Activation which requires Sign in.
+>Even on the above screen, if you notice the top right hand side corner; the user is already logged in using SSO.
+
+
+1. Upon successful Activation, the user can use the M365 Apps. 
+
+   ![ws name.](media/img8.png)
