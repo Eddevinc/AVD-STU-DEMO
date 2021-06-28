@@ -8,9 +8,9 @@ In this demo, we will access the Desktop and RemoteApps assigned to an end user 
 
 **Talk through tip:**
    **Mention to the audience:**
-   - The user is signing in for the first time. 
-   - All the user’s starting with ‘E’ in their first name belongs to East US region. 
-   - All the user’s starting with ‘C’ in their first name belongs to Central US region.
+ - The user is signing in for the first time. 
+ - All the user’s starting with ‘E’ in their first name belongs to East US region. 
+ - All the user’s starting with ‘C’ in their first name belongs to Central US region.
 
 1. Open the URL `https://aka.ms/wvdarmweb` for Remote Desktop Web Client in a new browser tab on the JumpVM or your computer. 
 
@@ -41,6 +41,49 @@ In this demo, we will access the Desktop and RemoteApps assigned to an end user 
 
    ![ws name.](media/img4.png)
    
-2. Select **Allow** on the prompt asking permission to *Access local resources*.
+1. Select **Allow** on the prompt asking permission to *Access local resources*.
 
    ![ws name.](media/img5.png)
+   
+1. Enter the credentials for *EvanA@AVDDemo.com* and click on **Submit**.
+
+   ![ws name.](media/img6.png)
+
+1. Once signed in, because this is the first login for the user, the M365 Apps will require Activation which is acquired online based on the user licenses, Click on **Sign In**.
+
+   ![ws name.](media/img7.png)
+
+>**Talk through tip:**
+>The first login requires M365 App Activation which requires Sign in.
+>Even on the above screen, if you notice the top right hand side corner; the user is already logged in using SSO.
+
+
+1. Upon successful Activation, the user can use the M365 Apps. 
+
+   ![ws name.](media/img8.png)
+
+
+- End user login with access to only RemoteApps 
+  - Login with AVD win32 Client 
+  - Login with WebClient 
+
+
+- End user login with access to only DAG
+  - Login with AVD win32 Client 
+   - Subscribe with feed URL 
+  - Login with WebClient
+
+
+**End user Experience:**
+  - Demo Overview 
+  - AVD Login experience 
+    - Login with User 1 who has NO DAG access: 
+    - Login with AVD win32 Client 
+
+Login with WebClient 
+
+Login with User 2 who has ONLY APP access: 
+
+Login with AVD  
+
+Login with WebClient 
