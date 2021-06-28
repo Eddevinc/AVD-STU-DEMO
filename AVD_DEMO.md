@@ -19,11 +19,13 @@ In this demo, we will access the Desktop and RemoteApps assigned to an end user 
 1. Enter the credentials as below:
 
    - Enter the username as **EvanA@AVDDemo.com** and click **Next**.
+   
 
    ![ws name.](media/img1.png)
    
    
    - Enter the password and click **Sign in**.
+   
 
    ![ws name.](media/img2.png)
 
