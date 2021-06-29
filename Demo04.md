@@ -27,4 +27,4 @@ In this demo, we will walk through the Azure Virtual Desktop setup.
 - **AppGroup-prod-EUS1-OfficeApps-001**, is assigned to a User Group **OfficeUsersEastUS**
 - **AppGroup-prod-CUS1-OfficeApps-001**, is assigned to a User Group **OfficeUsersCentralUS**
 
-![ws name.](media/img40.png) 
+![ws name.](media/img40.png)
