@@ -37,6 +37,6 @@ In this demo, we will walk through the Azure Virtual Desktop setup.
 
 ![ws name.](media/img41.png)
 
-- Both the Workspaces logocally combine the Appl;ication Groups.
+- Both the Workspaces logically combine the Appl;ication Groups.
 
 ![ws name.](media/img42.png)
