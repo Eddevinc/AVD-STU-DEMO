@@ -203,3 +203,9 @@ In this demo, we will access the Desktop assigned to an end user using an AVD Cl
 7. Once signed in, the Full Desktop session will be presented to the user. 
 
    ![ws name.](media/img25.png)
+
+>**Talk through tip:**
+>**RDP Ports**
+   - Talk about how the client uses HTTPS (outbound) for all the Remote Desktop experience.
+   - Explain the NO need of any INBOUND Network Ports.
+   ![ws name.](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/_images/migrate/wvd/scenario-solution.png)
