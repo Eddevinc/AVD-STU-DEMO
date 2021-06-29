@@ -28,3 +28,15 @@ In this demo, we will walk through the Azure Virtual Desktop setup.
 - **AppGroup-prod-CUS1-OfficeApps-001**, is assigned to a User Group **OfficeUsersCentralUS**
 
 ![ws name.](media/img40.png)
+
+**AVD Workspaces**
+
+> A workspace is a logical grouping of application groups in Azure Virtual Desktop. Each Azure Virtual Desktop application group must be associated with a workspace for users to see the remote apps and desktops published to them.
+
+- In this Demo, we have created two Workspaces, **OfficeUsersCentralUS** and **OfficeUsersEastUS**
+
+![ws name.](media/img41.png)
+
+- Both the Workspaces logocally combine the Appl;ication Groups.
+
+![ws name.](media/img42.png)
