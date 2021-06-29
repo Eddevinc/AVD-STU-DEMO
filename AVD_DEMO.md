@@ -109,16 +109,7 @@ In this demo, we will access the Desktop and RemoteApps assigned to an end user 
 
    ![ws name.](media/img14.png)
 
-6. Once signed in, because this is the first login for the user, the M365 Apps will require Activation which is acquired online based on the user licenses, Click on **Sign In**.
-
-   ![ws name.](media/img7.png)
-   
->**Talk through tip:**
->The first login requires M365 App Activation which requires Sign in.
->Even on the above screen, if you notice the top right hand side corner; the user is already logged in using SSO.
-
-
-7. Upon successful Activation, the user can use the M365 Apps. 
+6. Upon successful Activation, the user can use the M365 Apps. 
 
    ![ws name.](media/img15.png)
    
