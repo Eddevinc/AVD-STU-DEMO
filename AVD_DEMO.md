@@ -39,6 +39,7 @@ In this demo, we will access the Desktop and RemoteApps assigned to an end user 
 
 
 >**Note:** If there's a dialog box with *More information required*, select **Skip for now option**.
+
 >![ws name.](media/img3.png)
 >
 
