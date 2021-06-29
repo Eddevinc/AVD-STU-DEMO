@@ -6,8 +6,8 @@
 1. In JumpVM launch Edge browser and navigate to Azure Portal using following URL.
      
      ```
-       **https://portal.azure.com**
-       ```
+     https://portal.azure.com
+     ```
 				
 2. Sign in into the portal using the below credentials.
 
@@ -137,4 +137,4 @@
 
 11. The last window helps us to verify if the parameters we filled are correct. Wait for validation to pass, then click on **Create** to initiate the deployment. 
 
-    ![ws name.](media/ch4.png)
+    
