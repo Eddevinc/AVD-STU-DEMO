@@ -149,7 +149,7 @@ In this demo, we will access the Desktop assigned to an end user using a browser
        cpdz18WCC*Ht!
        ```
    
-   ![ws name.](media/img11.png)
+   ![ws name.](media/img17.png)
 
 
 >**Note:** If there's a dialog box with *More information required*, select **Skip for now option**.
