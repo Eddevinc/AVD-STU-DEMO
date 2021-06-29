@@ -84,13 +84,19 @@ In this demo, we will access the Desktop and RemoteApps assigned to an end user 
 
 3. Enter the credentials as below:
 
-   - Enter the username as **Erika.6182@AVDDemo.com** and click **Next**.
+   - Enter the username as below and click **Next**.
+       ```
+       Erika.6182@AVDDemo.com
+       ```
    
 
    ![ws name.](media/img10.png)
    
    
    - Enter the password and click **Sign in**.
+       ```
+       cpdz18WCC*Ht!
+       ```
    
 
    ![ws name.](media/img11.png)
@@ -154,6 +160,49 @@ In this demo, we will access the Desktop assigned to an end user using a browser
 
    ![ws name.](media/img19.png)
 
-1. Once signed in, the Full Desktop session will be presented to the user.
+1. Once signed in, the Full Desktop session will be presented to the user through the Browser.
 
    ![ws name.](media/img20.png)
+
+## **Task 4: Access the Published Desktops using AVD Client**
+
+In this demo, we will access the Desktop assigned to an end user using an AVD Client app.
+
+1. Launch AVD Client on your JumpVM.
+
+>**Note:** The AVD Client must be already logged in during the previous demo login; follow below steps to login using multiple accounts.
+
+2. In AVD desktop client click on **Subscribe**.
+
+   ![ws name.](media/img9.png)
+
+3. Enter the credentials as below:
+
+   - Enter the username as **Erika.6182@AVDDemo.com** and click **Next**.
+   
+
+   ![ws name.](media/img10.png)
+   
+   
+   - Enter the password and click **Sign in**.
+   
+
+   ![ws name.](media/img11.png)
+
+
+>**Note:** If there's a dialog box with *More information required*, select **Skip for now option**.
+>![ws name.](media/img3.png)
+>
+
+4. The RemoteApps and the Workspace published to the logged in user will show up, click on **Excel** application to access it.
+
+   ![ws name.](media/img13.png)
+   
+
+5. Enter the credentials for *Erika.6182@AVDDemo.com* and click on **Submit**.
+
+   ![ws name.](media/img14.png)
+
+6. Upon successful Activation, the user can use the M365 Apps. 
+
+   ![ws name.](media/img15.png)
