@@ -208,4 +208,13 @@ In this demo, we will access the Desktop assigned to an end user using an AVD Cl
 >**RDP Ports**
    - Talk about how the client uses HTTPS (outbound) for all the Remote Desktop experience.
    - Explain the NO need of any INBOUND Network Ports.
+
    ![ws name.](media/img26.png)
+
+   - Showcase how there are no Public IP Addresses assigned to the VMs running as Session Hosts in AVD.
+
+   ![ws name.](media/img27.png)
+
+   - Showcase the NSG's on the NICs of the AVD VMs which shows no Inbound ports for RDP or RDGW.
+
+   ![ws name.](media/img28.png)
