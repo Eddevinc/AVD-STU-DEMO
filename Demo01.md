@@ -228,7 +228,12 @@ In this demo, we will access the Desktop assigned to an end user using an AVD Cl
 
       - Open any one of the Azure Storage Account in Azure Portal and navigate to **Networking**
       - Add the Public IP to allow list so that the contents of the Azure Files can be accessed from the Portal.
+
       >**Note:** Azure Files are configured to allow access only from AVD Subnets; hence, to be able to access the Azure Files from Azure Portal, the Public IP that is being used to connect to the Azure Portal needs to be whitelisted.
 
       ![ws name.](media/img29.png)
+
+      - Click on **File Shares** and then **upd**; here you will see the User Profiles created for our previous Demo User's Logins.
+
+      ![ws name.](media/img30.png)
    
