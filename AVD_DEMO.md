@@ -21,13 +21,13 @@ In this demo, we will access the Desktop and RemoteApps assigned to an end user 
    - Enter the username as **Erika.6182@AVDDemo.com** and click **Next**.
    
 
-   ![ws name.](media/img1.png)
+   ![ws name.](media/img10.png)
    
    
    - Enter the password as **cpdz18WCC*Ht!** and click **Sign in**.
    
 
-   ![ws name.](media/img2.png)
+   ![ws name.](media/img11.png)
 
 
 >**Note:** If there's a dialog box with *More information required*, select **Skip for now option**.
