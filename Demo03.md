@@ -32,4 +32,3 @@ In this demo, we will walk through the Azure networking and Domain Controller se
 - Each vNet has its dedicated Subnet for AVD.
 
 ![ws name.](media/img35.png)
-
