@@ -4,25 +4,18 @@
 
 In this demo, we will walk through the Azure Virtual Desktop setup.
 
-**Talk through**   
- - For this Demo, we have deployed two Domain Controllers; one in East US and one in Central US.
- - A VM Running Azure Connect application is Syncing Active Directory with Azure Active Directory
+**Talk through**
 
-![ws name.](media/img31.png)
+- For this Demo, we have deployed two AVD Hostpools; one in East US and one in Central US.
 
-- There are 2 vNets deployed in Azure, one in East and one in Central region.
+![ws name.](media/img36.png)
 
-![ws name.](media/img32.png)
+- **hostpool-prod-CUS1-Depth_First-001**, is configured as **Depth First** Load Balancing algorithm
 
-- These vNets are connected to each other using vNet Peering.
+![ws name.](media/img37.png)
 
-![ws name.](media/img33.png)
+- **hostpool-prod-EUS1-Breadth_First-001**, is configured as **Breadth First** Load Balancing algorithm
 
-- Both the vNets are configured to use the IP addresses of the Domain Controllers as DNS Servers.   
-   
-![ws name.](media/img34.png)
+![ws name.](media/img38.png)
 
-- Each vNet has its dedicated Subnet for AVD.
-
-![ws name.](media/img35.png)
-
+> Breadth-first load balancing distributes new user sessions across all available session hosts in the host pool. Depth-first load balancing distributes new user sessions to an available session host with the highest number of connections but has not reached its maximum session limit threshold.
