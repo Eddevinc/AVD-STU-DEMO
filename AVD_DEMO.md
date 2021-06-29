@@ -30,9 +30,11 @@ In this demo, we will access the Desktop and RemoteApps assigned to an end user 
    ![ws name.](media/img10.png)
    
    
-   - Enter the password as **cpdz18WCC*Ht!** and click **Sign in**.
+   - Enter the password and click **Sign in**.
+       ```
+       cpdz18WCC*Ht!
+       ```
    
-
    ![ws name.](media/img11.png)
 
 
