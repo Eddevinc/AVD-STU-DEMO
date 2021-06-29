@@ -18,7 +18,7 @@ In this demo, we will access the Desktop and RemoteApps assigned to an end user 
       https://aka.ms/wvdarmweb
       ```
 
->**Note:** If you are already logged in as the end user, jump to *step 3*.
+   >**Note:** If you are already logged in as the end user, jump to *step 3*.
 
 2. Enter the credentials as below:
 
@@ -35,10 +35,8 @@ In this demo, we will access the Desktop and RemoteApps assigned to an end user 
    ![ws name.](media/img11.png)
 
 
->**Note:** If there's a dialog box with *More information required*, select **Skip for now option**.
->![ws name.](media/img3.png)
->
-
+   >**Note:** If there's a dialog box with *More information required*, select **Skip for now option**.
+   >![ws name.](media/img3.png)
 
 >**Talk through tip:**
 > Mention to the audience that the AVD environment is configured to enforce MFA, but for the demo purposes we have allowed the option to Skip the MFA setup for maximum of 14 days.
