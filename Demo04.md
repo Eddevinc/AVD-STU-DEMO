@@ -1,8 +1,8 @@
-# **Demo 3: General walk through of Azure Resources (Demo)**
+# **Demo 4: AVD Walk through Demo from Admin perspective**
 
-## **Networking and Domain Controllers overview**
+## **AVD HostPool Setup**
 
-In this demo, we will walk through the Azure networking and Domain Controller setup.
+In this demo, we will walk through the Azure Virtual Desktop setup.
 
 **Talk through**   
  - For this Demo, we have deployed two Domain Controllers; one in East US and one in Central US.
