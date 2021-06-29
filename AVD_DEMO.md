@@ -51,18 +51,13 @@ In this demo, we will access the Desktop and RemoteApps assigned to an end user 
 
    ![ws name.](media/img6.png)
 
-1. Once signed in, the M365 Apps will Auto Activate.
+1. Once signed in, the M365 App will open. The App will be auto activated and Auto logged in using SSO.
 
-   ![ws name.](media/img7.png)
+   ![ws name.](media/img8.png)
 
 >**Talk through tip:**
 >The first login does SSO in M365 App which also Activates M365 Apps based on the User License.
 >On the above screen, if you notice the top right hand side corner; the user is already logged in using SSO.
-
-
-1. Upon successful Activation, the user can use the M365 Apps. 
-
-   ![ws name.](media/img8.png)
 
 
 
