@@ -12,16 +12,19 @@ In this demo, we will access the Desktop and RemoteApps assigned to an end user 
  - All the user’s starting with **‘E’** in their first name belongs to **East US** region. 
  - All the user’s starting with **‘C’** in their first name belongs to **Central US** region.
 
-1. Open the URL `https://aka.ms/wvdarmweb` for Remote Desktop Web Client in a new browser tab on the JumpVM or your computer. 
+1. Open the below URL for Remote Desktop Web Client in a new browser tab on the JumpVM or your computer. 
+      ```
+      https://aka.ms/wvdarmweb
+      ```
 
 >**Note:** If you are already logged in as the end user, jump to *step 3*.
 
 1. Enter the credentials as below:
 
    - Enter the username as below and click **Next**.
-   ```
-   Erika.6182@AVDDemo.com
-   ```
+       ```
+       Erika.6182@AVDDemo.com
+       ```
    
 
    ![ws name.](media/img10.png)
