@@ -18,7 +18,7 @@ In this demo, we will access the Desktop and RemoteApps assigned to an end user 
 
 1. Enter the credentials as below:
 
-   - Enter the username as **Erika.6182@AVDDemo.com** and click **Next**.
+   - Enter the username as **<inject key="Erika.6182@AVDDemo.com" />** and click **Next**.
    
 
    ![ws name.](media/img10.png)
