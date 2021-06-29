@@ -29,7 +29,7 @@ In this demo, we will walk through the Azure Virtual Desktop setup.
 
 ![ws name.](media/img40.png)
 
-**AVD Workspaces**
+## **AVD Workspaces**
 
 > A workspace is a logical grouping of application groups in Azure Virtual Desktop. Each Azure Virtual Desktop application group must be associated with a workspace for users to see the remote apps and desktops published to them.
 
