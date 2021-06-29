@@ -29,7 +29,7 @@ In this demo, we will access the Desktop and RemoteApps assigned to an end user 
    ![ws name.](media/img10.png)
    
    
-   - Enter the password **<inject key="demo Admin Password" />** and click **Sign in**.
+   - Enter the password <inject key="demo Admin Password" /> and click **Sign in**.
    
    ![ws name.](media/img11.png)
 
@@ -89,7 +89,7 @@ In this demo, we will access the Desktop and RemoteApps assigned to an end user 
    ![ws name.](media/img10.png)
    
    
-   - Enter the password **<inject key="demo Admin Password" />** and click **Sign in**.
+   - Enter the password <inject key="demo Admin Password" /> and click **Sign in**.
    
 
    ![ws name.](media/img11.png)
@@ -133,7 +133,7 @@ In this demo, we will access the Desktop assigned to an end user using a browser
    ![ws name.](media/img16.png)
    
    
-   - Enter the password **<inject key="demo Admin Password" />** and click **Sign in**.
+   - Enter the password <inject key="demo Admin Password" /> and click **Sign in**.
    
    ![ws name.](media/img17.png)
 
@@ -177,7 +177,7 @@ In this demo, we will access the Desktop assigned to an end user using an AVD Cl
        Ed.0629@AVDDemo.com
        ```   
    
-   - Enter the password **<inject key="demo Admin Password" />** and click **Sign in**.
+   - Enter the password <inject key="demo Admin Password" /> and click **Sign in**.
 
 5. The RemoteApps, along with the Session Desktops published to the logged in user will show up, click on **SessionDesktop**.
 
