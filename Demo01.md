@@ -24,8 +24,7 @@ In this demo, we will access the Desktop and RemoteApps assigned to an end user 
    - Enter the username as below and click **Next**.
        ```
        Erika.6182@AVDDemo.com
-       ```
-   
+       ```   
 
    ![ws name.](media/img10.png)
    
