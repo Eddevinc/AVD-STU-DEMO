@@ -9,8 +9,7 @@ In this demo, we will walk through the Azure networking and Domain Controller se
          ```
          AVDPresentor01@AVDDemo.com
          ```
-      - Password:
-         <inject key="demo Admin Password" />
+      - Password:  <inject key="demo Admin Password" />  
 
 **Talk through**   
  - For this Demo, we have deployed two Domain Controllers; one in East US and one in Central US.
