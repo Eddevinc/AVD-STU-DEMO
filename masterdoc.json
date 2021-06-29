@@ -4,9 +4,13 @@
     "Language": "English",
     "Files": [
 	    {
-        "RawFilePath": "https://raw.githubusercontent.com/Eddevinc/AVD-STU-DEMO/main/AVD_DEMO.md",
+        "RawFilePath": "https://raw.githubusercontent.com/Eddevinc/AVD-STU-DEMO/main/Demo01.md",
         "Order": 1
       },
+  {
+        "RawFilePath": "https://raw.githubusercontent.com/Eddevinc/AVD-STU-DEMO/main/Demo02.md",
+        "Order": 2
+      }
 ]
   }
   
