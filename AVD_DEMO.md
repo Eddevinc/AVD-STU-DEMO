@@ -8,7 +8,7 @@ In this demo, we will access the Desktop and RemoteApps assigned to an end user 
 
 **Talk through tip:**
    **Mention to the audience:**
- - The user is signing in for the first time. 
+ - The user is signing in for the first time.  
  - All the user’s starting with **‘E’** in their first name belongs to **East US** region. 
  - All the user’s starting with **‘C’** in their first name belongs to **Central US** region.
 
@@ -205,6 +205,7 @@ In this demo, we will access the Desktop assigned to an end user using an AVD Cl
    ![ws name.](media/img25.png)
 
 >**Talk through tip:**
+
 >**RDP Ports**
    - Talk about how the client uses HTTPS (outbound) for all the Remote Desktop experience.
    - Explain the NO need of any INBOUND Network Ports.
@@ -218,3 +219,16 @@ In this demo, we will access the Desktop assigned to an end user using an AVD Cl
    - Showcase the NSG's on the NICs of the AVD VMs which shows no Inbound ports for RDP or RDGW.
 
    ![ws name.](media/img28.png)
+
+>**FSLogix Profiles**
+   - The AVD User profiles are being stored in an Azure File Share.
+   - We are using FSLogix Container settings to map the User Profiles to Azure Files.
+   - East User's profiles are stored in East region and Central User's profiles are stored in Central region.
+   - Profiles can be shown from Azure Files using Azure Portal
+
+      - Open any one of the Azure Storage Account in Azure Portal and navigate to **Networking**
+      - Add the Public IP to allow list so that the contents of the Azure Files can be accessed from the Portal.
+      >**Note:** Azure Files are configured to allow access only from AVD Subnets; hence, to be able to access the Azure Files from Azure Portal, the Public IP that is being used to connect to the Azure Portal needs to be whitelisted.
+
+      ![ws name.](media/img29.png)
+   
