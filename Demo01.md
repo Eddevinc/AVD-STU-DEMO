@@ -31,9 +31,7 @@ In this demo, we will access the Desktop and RemoteApps assigned to an end user 
    
    
    - Enter the password and click **Sign in**.
-       ```
-       cpdz18WCC*Ht!
-       ```
+<inject key="demo Admin Password" />
    
    ![ws name.](media/img11.png)
 
@@ -94,9 +92,7 @@ In this demo, we will access the Desktop and RemoteApps assigned to an end user 
    
    
    - Enter the password and click **Sign in**.
-       ```
-       cpdz18WCC*Ht!
-       ```
+<inject key="demo Admin Password" />
    
 
    ![ws name.](media/img11.png)
@@ -142,9 +138,7 @@ In this demo, we will access the Desktop assigned to an end user using a browser
    
    
    - Enter the password and click **Sign in**.
-       ```
-       cpdz18WCC*Ht!
-       ```
+<inject key="demo Admin Password" />
    
    ![ws name.](media/img17.png)
 
@@ -189,9 +183,7 @@ In this demo, we will access the Desktop assigned to an end user using an AVD Cl
        ```   
    
    - Enter the password and click **Sign in**.
-       ```
-       cpdz18WCC*Ht!
-       ```
+<inject key="demo Admin Password" />
 
 5. The RemoteApps, along with the Session Desktops published to the logged in user will show up, click on **SessionDesktop**.
 
