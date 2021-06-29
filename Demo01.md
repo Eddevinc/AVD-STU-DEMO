@@ -32,7 +32,7 @@ In this demo, we will access the Desktop and RemoteApps assigned to an end user 
    
    - Enter the password and click **Sign in**.
        ```
-       cpdz18WCC*Ht!
+       **<inject key="demo Admin Password" />**
        ```
    
    ![ws name.](media/img11.png)
