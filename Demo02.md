@@ -134,8 +134,8 @@
 10. Now click on **Review + create** on the bottom left corner. 
 
     
+>**Note:** The last window helps us to verify if the parameters we filled are correct.
 
-
-11. The last window helps us to verify if the parameters we filled are correct. Wait for validation to pass, then click on **Create** to initiate the deployment. 
+11. Click on **Cancel** to cancel the deployment.
 
     
