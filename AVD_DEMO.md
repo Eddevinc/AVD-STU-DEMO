@@ -140,7 +140,7 @@ In this demo, we will access the Desktop assigned to an end user using a browser
        Cody.0629@AVDDemo.com
        ```   
 
-   ![ws name.](media/img10.png)
+   ![ws name.](media/img16.png)
 
    
    
