@@ -4,9 +4,17 @@
 
 In this demo, we will walk through the Azure networking and Domain Controller setup.
 
+   - Use below credentials to access Azure Portal:
+      - UserName:
+         ```
+         AVDPresentor01@AVDDemo.com
+         ```
+      - Password:
+         <inject key="demo Admin Password" />
+
 **Talk through**   
  - For this Demo, we have deployed two Domain Controllers; one in East US and one in Central US.
- - A VM Running Azure Connect application is Syncing Active Directory with Azure Active Directory
+ - A VM Running Azure Connect application is Syncing Active Directory with Azure Active Directory.
 
 ![ws name.](media/img31.png)
 
