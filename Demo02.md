@@ -17,6 +17,7 @@
   ![ws name.](media/demo201.png)
 
 >**Note:** On the following prompt, click on **Skip for now**
+>
 >![ws name.](media/demo202.png)
 >
 
@@ -64,7 +65,7 @@
    
 6. In the Virtual machines tab, select **Yes** against **Add virtual machines**. By doing this, we are stepping towards adding Virtual machines to the host pool. 
 
-   ![ws name.](media/206.png)
+   ![ws name.](media/demo206.png)
 
 7. In this step, we will provide the details of the VMs to be created as session Hosts. For your convenience, this step is divided into three sections as follows:
 
@@ -89,7 +90,7 @@
 
   **B**. Network and Security:
 
-  ![ws name.](media/demo2010.png)
+  ![ws name.](media/demo210.png)
     
    Leave all values to default, except:
     
