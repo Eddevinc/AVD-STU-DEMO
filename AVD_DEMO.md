@@ -208,4 +208,4 @@ In this demo, we will access the Desktop assigned to an end user using an AVD Cl
 >**RDP Ports**
    - Talk about how the client uses HTTPS (outbound) for all the Remote Desktop experience.
    - Explain the NO need of any INBOUND Network Ports.
-   ![ws name.](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/_images/migrate/wvd/scenario-solution.png)
+   ![ws name.](media/img26.png)
