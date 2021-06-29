@@ -18,7 +18,10 @@ In this demo, we will access the Desktop and RemoteApps assigned to an end user 
 
 1. Enter the credentials as below:
 
-   - Enter the username as **Erika.6182@AVDDemo.com** and click **Next**.
+   - Enter the username as below and click **Next**.
+   ```
+   Erika.6182@AVDDemo.com
+   ```
    
 
    ![ws name.](media/img10.png)
@@ -73,8 +76,6 @@ In this demo, we will access the Desktop and RemoteApps assigned to an end user 
 2. In AVD desktop client click on **Subscribe**.
 
    ![ws name.](media/img9.png)
-
->**Note:** If you are already logged in as the end user, jump to *step 3*.
 
 3. Enter the credentials as below:
 
