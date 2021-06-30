@@ -1,4 +1,4 @@
-# Demo 6 
+# **Demo 6: AVD Client session load balancing**
 
 ## **Task 1: Demonstrate 'Breadth-First' Vs. 'Depth-First' Load balancing capabilities in AVD**
 
