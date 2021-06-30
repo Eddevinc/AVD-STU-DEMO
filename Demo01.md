@@ -355,7 +355,7 @@ https://aka.ms/wvdarmweb
 
 > **Note:** If there's a dialog box with More information required, select Skip for now option.
 >    
->    ![ws name.](media/demo23.png)
+>    ![ws name.](media/img3.png)
 >
 
 7.	The RemoteApps and the Workspace published to the logged in user will show up, click on **PowerPoint** application to access it.
@@ -368,7 +368,7 @@ https://aka.ms/wvdarmweb
 
 9.	 Enter the credentials for **Callie.0629@AVDDemo.com** and click on **Submit**. 
 
-    ![ws name.](media/demo20.png)
+   ![ws name.](media/demo20.png)
 
 10.	Once signed in, the M365 App will open. The App will be auto activated and Auto logged in using SSO.
 
