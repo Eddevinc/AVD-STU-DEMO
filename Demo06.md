@@ -1,6 +1,6 @@
 # Demo 6 
 
-##**Task 1: Demonstrate 'Breadth-First' Vs. 'Depth-First' Load balancing capabilities in AVD**
+## **Task 1: Demonstrate 'Breadth-First' Vs. 'Depth-First' Load balancing capabilities in AVD**
 
 Azure Virtual Desktop supports two load-balancing methods. Each method determines which session host will host a user's session when they connect to a resource in a host pool. While configuring a host pool, we can select load balancing methods as per the needs.
 The following load-balancing methods are available in Windows Virtual Desktop:
