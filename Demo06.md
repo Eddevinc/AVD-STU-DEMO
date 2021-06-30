@@ -1,11 +1,14 @@
-# Demo 6 
-
-## **Task 1: Demonstrate 'Breadth-First' Vs. 'Depth-First' Load balancing capabilities in AVD**
+# Demo 6 : Demonstrate 'Breadth-First' Vs. 'Depth-First' Load balancing capabilities in AVD
 
 Azure Virtual Desktop supports two load-balancing methods. Each method determines which session host will host a user's session when they connect to a resource in a host pool. While configuring a host pool, we can select load balancing methods as per the needs.
 The following load-balancing methods are available in Windows Virtual Desktop:
 
 **A. Breadth-first:** Breadth-first load balancing distributes new user sessions across all available session hosts in the host pool.
+
+**B. Depth-first:** Depth-first load balancing distributes new user sessions to an available session host with the highest number of connections but has not reached its maximum session limit threshold.
+
+
+## **Task 1: Demonstrate 'Breadth-First' Load balancing capabilities in AVD**
 
 1.	Navigate to **Azure Virtual Desktop** in the Azure portal. Open **Host pools** and select **hostpool-prod-EUS1-Breadth_First-001** and then select **Session hosts**. In the sessions hosts section you will have three session hosts with zero active sessions.
  
@@ -97,9 +100,7 @@ https://aka.ms/wvdarmweb
 > **Note:** Click on **Refresh** if you don’t see latest results.
   
 
-
-**B. Depth-first:** Depth-first load balancing distributes new user sessions to an available session host with the highest number of connections but has not reached its maximum session limit threshold.
-
+## **Task 2: Demonstrate 'Depth-First' Load balancing capabilities in AVD**
 
 1.	Navigate to **Azure Virtual Desktop** in the Azure portal. Open **Host pools** and select the host pool **hostpool-prod-CUS1-Depth_First-001** and then select **Session hosts**. In the sessions hosts section you will have three session hosts with zero active sessions.
  
