@@ -250,9 +250,9 @@ The following load-balancing methods are available in Windows Virtual Desktop:
     
 5.	Open the below URL for Remote Desktop Web Client in a new browser tab on the JumpVM or your computer.
    
-   ```
-    https://aka.ms/wvdarmweb
-    ```
+```
+https://aka.ms/wvdarmweb
+```
     
 6.	Enter the credentials as given below:
 
@@ -346,9 +346,9 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 
 5.	Open the below URL for Remote Desktop Web Client in a new browser tab on the JumpVM or your computer.
 
-    ```
-    https://aka.ms/wvdarmweb
-    ```
+```
+https://aka.ms/wvdarmweb
+```
 
 6.	Enter the credentials as given below:
 
