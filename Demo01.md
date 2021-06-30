@@ -205,27 +205,28 @@ In this demo, we will access the Desktop assigned to an end user using an AVD Cl
 
    ![ws name.](media/img26.png)
 
-   - Showcase how there are no Public IP Addresses assigned to the VMs running as Session Hosts in AVD.
 
-   
->- In JumpVM launch Edge browser and navigate to Azure Portal using following URL.
->    
->     ```
->     https://portal.azure.com
->     ```
->				
->- Sign in into the portal using the below credentials.
->
->  - Username: AVDPresentor01@AVDDemo.com
->
->  - Password: **<inject key="Demo Admin Password" />**
->
-> ![ws name.](media/demo201.png)
->
+8. In JumpVM launch Edge browser and navigate to Azure Portal using following URL.
+     
+     ```
+     https://portal.azure.com
+     ```
+				
+9. Sign in into the portal using the below credentials.
+
+  - Username: AVDPresentor01@AVDDemo.com
+  - Password: **<inject key="Demo Admin Password" />**
+
+  ![ws name.](media/demo201.png)
+
 >**Note:** On the following prompt, click on **Skip for now**
 >
 >![ws name.](media/demo202.png)
 >
+
+   - Showcase how there are no Public IP Addresses assigned to the VMs running as Session Hosts in AVD.
+
+   
 
    ![ws name.](media/img27.png)
 
