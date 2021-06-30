@@ -21,3 +21,13 @@ In This Demo we will be exploring Insigts on Azure Virtual Desktop
 4. Under **Clients** tab explore how we can monitor the different clients, users and their activities.
 
   ![ws name.](media/demoin03.png)
+
+5. Navigate to **Users** tab.
+
+  ![ws name.](media/demoin04.png)
+
+6. Enter name of a user in **UPN to search for** then press enter, verify the selected user from **Matching users** dropdown menu.
+
+  ![ws name.](media/demoin05.png)
+
+>**Note:** Here we can monitor stats like *Connections over time* of a user.
