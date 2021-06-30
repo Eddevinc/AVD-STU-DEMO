@@ -221,3 +221,204 @@ In this demo, we will access the Desktop assigned to an end user using an AVD Cl
       - Click on **File Shares** and then **upd**; here you will see the User Profiles created for our previous Demo User's Logins.
 
       ![ws name.](media/img30.png)
+      
+
+
+
+## **Task 5: Access the Published Desktops using AVD Client**
+Select Pooled and talk through Breadth-First vs. Depth First Load Balancing Options:
+
+
+Azure Virtual Desktop supports two load-balancing methods. Each method determines which session host will host a user's session when they connect to a resource in a host pool. While configuring a host pool, we can select load balancing methods as per the needs.
+The following load-balancing methods are available in Windows Virtual Desktop:
+
+**A. Breadth-first:** Breadth-first load balancing distributes new user sessions across all available session hosts in the host pool.
+
+1.	Navigate to **Azure Virtual Desktop** in the Azure portal. Open **Host pools** and select **hostpool-prod-EUS1-Breadth_First-001** and then select **Session hosts**.
+
+    ![ws name.](media/img3.png)
+    
+2.	In the sessions hosts section you will have three session hosts with zero active sessions.
+ 
+    ![ws name.](media/img3.png)
+    
+3.	Now go to the **Active Directory** and open **Users** given under _Manage_ pane on the left side. 
+ 
+    ![ws name.](media/img3.png)
+    
+4.	We will pick users from same the region as of the host pool (i.e., EastUS) and connect to the sessions from both Browser and AVD Client.
+    
+5.	Open the below URL for Remote Desktop Web Client in a new browser tab on the JumpVM or your computer.
+   
+   ```
+    https://aka.ms/wvdarmweb
+    ```
+    
+6.	Enter the credentials as given below:
+
+  * **Username** – Enter the username **Ed.0629@AVDDemo.com** and click on **Next**.
+
+    ![ws name.](media/img3.png)
+    
+  * **Password** – Enter the password and click on **Sign in**.
+
+    ![ws name.](media/img3.png)
+    
+    
+> **Note:** If there's a dialog box with More information required, select **Skip** for now option.
+>    
+>    ![ws name.](media/img3.png)
+>
+
+7. The RemoteApps and the Workspace published to the logged in user will show up, click on **Excel** application to access it.
+
+    ![ws name.](media/img3.png)
+
+8. Select **Allow** on the prompt asking permission to Access local resources.
+           
+    ![ws name.](media/img3.png)
+    
+9. Enter the credentials for **Ed.0629@AVDDemo.com** and click on **Submit**.
+ 
+    ![ws name.](media/img3.png)
+    
+10.	Once signed in, the M365 App will open. The App will be auto activated and Auto logged in using SSO. 
+
+> **Talk through tip:** The first login does SSO in M365 App which also Activates M365 Apps based on the User License. On the above screen, if you notice the top right hand side corner; the user is already logged in using SSO.
+
+11.	Launch **AVD Client** on your JumpVM. In AVD desktop client click on **Subscribe**. 
+
+    ![ws name.](media/img3.png)
+    
+12.	Enter the credentials as given below:
+  
+  * **Username** – **Emily.6548@AVDDemo.com** and click on **Next**. 
+
+    ![ws name.](media/img3.png)
+    
+  * **Password** – Enter the password and click on **Sign in**.
+
+    ![ws name.](media/img3.png)
+    
+> **Note:** If there's a dialog box with More information required, select Skip for now option.
+>    
+>    ![ws name.](media/img3.png)
+>
+
+13.	The RemoteApps and the Workspace published to the logged in user will show up, double click on **File Explorer** application to access it.
+
+    ![ws name.](media/img3.png)
+
+14.	Enter the credentials for **Emily@AVDDemo.com** and click on **OK**.
+ 
+    ![ws name.](media/img3.png)
+
+15.	On successful login, file explorer will launch as shown below.
+ 
+    ![ws name.](media/img3.png)
+
+16.	Navigate back to **Session hosts**  and view the **active sessions**. 
+
+    ![ws name.](media/img3.png)
+
+17.	This shows how users are distributed among different session hosts under **Breadth-first load balancing method**. The breadth-first method first queries session hosts that allow new connections. The method then selects a session host randomly from half the set of session hosts with the least number of sessions.
+
+> **Note:** Click on **Refresh** if you don’t see latest results.
+  
+
+
+**B. Depth-first:** Depth-first load balancing distributes new user sessions to an available session host with the highest number of connections but has not reached its maximum session limit threshold.
+
+
+1.	Navigate to **Azure Virtual Desktop** in the Azure portal. Open **Host pools** and select the host pool **hostpool-prod-CUS1-Depth_First-001** and then select **Session hosts**.
+
+    ![ws name.](media/img3.png)
+
+2.	In the sessions hosts section you will have three session hosts with zero active sessions.
+ 
+    ![ws name.](media/img3.png)
+
+3.	Now go to the **Active Directory** and open **Users** given under _Manage_ pane on the left side. 
+ 
+    ![ws name.](media/img3.png)
+
+4.	We will pick users from same the region as of the host pool (i.e., CentralUS) and connect to the sessions from both Browser and AVD Client.
+
+5.	Open the below URL for Remote Desktop Web Client in a new browser tab on the JumpVM or your computer.
+
+    ```
+    https://aka.ms/wvdarmweb
+    ```
+
+6.	Enter the credentials as given below:
+
+  * **Username** – Enter the username **Callie.0629@AVDDemo.com** and click on **Next**.
+
+    ![ws name.](media/img3.png)
+
+  * **Password** – Enter the password and click on **Sign in**.
+  
+    ![ws name.](media/img3.png)
+
+
+> **Note:** If there's a dialog box with More information required, select Skip for now option.
+>    
+>    ![ws name.](media/img3.png)
+>
+
+7.	The RemoteApps and the Workspace published to the logged in user will show up, click on **PowerPoint** application to access it.
+ 
+    ![ws name.](media/img3.png)
+
+8.	Select **Allow** on the prompt asking permission to Access local resources.
+ 
+    ![ws name.](media/img3.png)
+
+9.	 Enter the credentials for **Callie.0629@AVDDemo.com** and click on **Submit**. 
+
+    ![ws name.](media/img3.png)
+
+10.	Once signed in, the M365 App will open. The App will be auto activated and Auto logged in using SSO.
+
+    ![ws name.](media/img3.png)
+
+11.	Launch **AVD Client** on your JumpVM. In AVD desktop client click on **Subscribe**.
+ 
+    ![ws name.](media/img3.png)
+
+12.	Enter the credentials as given below:
+
+  * **Username** – **Cody.0629@AVDDemo.com** and click on **Next**. 
+
+    ![ws name.](media/img3.png)
+
+  * **Password** – Enter the password and click on **Sign in**.
+ 
+    ![ws name.](media/img3.png)
+
+
+> **Note:** If there's a dialog box with More information required, select **Skip** for now option.
+>
+>   ![ws name.](media/img3.png)
+>
+
+13.	The RemoteApps and the Workspace published to the logged in user will show up, double click on **Session Desktop** application to access it.
+ 
+    ![ws name.](media/img3.png)
+
+14.	Enter the credentials for **Cody.0629@AVDDemo.com** and click on **Submit**.
+ 
+    ![ws name.](media/img3.png)
+
+15.	Once signed in, the Full Desktop session will be presented to the user.
+ 
+    ![ws name.](media/img3.png)
+
+16.	Navigate back to **Session hosts** and view the active sessions. Here one of the session hosts, will have **2 Active sessions**. 
+
+    ![ws name.](media/img3.png)
+
+17.	The depth-first method first queries session hosts that allow new connections and haven't gone over their maximum session limit. The method then selects the session host with highest number of sessions. If there's a tie, the method selects the first session host in the query.
+ 
+> **Note:** Click on **Refresh** if you don’t see latest results.
+
