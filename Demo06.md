@@ -8,12 +8,12 @@ The following load-balancing methods are available in Windows Virtual Desktop:
 **A. Breadth-first:** Breadth-first load balancing distributes new user sessions across all available session hosts in the host pool.
 
 1.	Navigate to **Azure Virtual Desktop** in the Azure portal. Open **Host pools** and select **hostpool-prod-EUS1-Breadth_First-001** and then select **Session hosts**. In the sessions hosts section you will have three session hosts with zero active sessions.
- 
-    ![ws name.](media/demo01.png)
+
+![ws name.](media/demo01.png)
     
 2.	Now go to the **Active Directory** and open **Users** given under _Manage_ pane on the left side. 
- 
-    ![ws name.](media/demo02.png)
+
+![ws name.](media/demo02.png)
     
 3.	We will pick users from same the region as of the host pool (i.e., EastUS) and connect to the sessions from both Browser and AVD Client.
     
