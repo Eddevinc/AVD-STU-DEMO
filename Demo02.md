@@ -14,20 +14,20 @@
   - Username: AVDPresentor01@AVDDemo.com
   - Password: **<inject key="Demo Admin Password" />**
 
-  ![ws name.](media/demo201.png)
+![ws name.](media/demo201.png)
 
 >**Note:** On the following prompt, click on **Skip for now**
 >
->![ws name.](media/demo202.png)
+![ws name.](media/demo202.png)
 >
 
 3. In Azure portal search for *Azure Virtual Desktop* and click on the search result.
 
-  ![ws name.](media/demo203.png)
+![ws name.](media/demo203.png)
 					
 4. Click on **Create a host pool**.
 
-  ![ws name.](media/demo204.png)
+![ws name.](media/demo204.png)
 
 5. In this step, we will provide the details required to create a Host Pool. For your convenience, this step is divided into two sections as follows:
 
@@ -65,11 +65,11 @@
    
 6. In the Virtual machines tab, select **Yes** against **Add virtual machines**. By doing this, we are stepping towards adding Virtual machines to the host pool. 
 
-   ![ws name.](media/demo206.png)
+![ws name.](media/demo206.png)
 
 7. In this step, we will provide the details of the VMs to be created as session Hosts. For your convenience, this step is divided into three sections as follows:
 
-  ![ws name.](media/demo209.png)
+![ws name.](media/demo209.png)
 
   **A**. Session Host Specifications:     
 
@@ -81,7 +81,7 @@
    - Image: **Windows 10 Enterprise multi-session, version 20H2 (GEN 2)** *(choose from dropdown)*
    - Virtual machine size: **Standard D4s_v3**. *Click on **Change Size**, then select **D4s_v3** and click on **Select** as shown below*
 
-  ![ws name.](media/demo207.png)
+![ws name.](media/demo207.png)
 
    - Number of VMs: **2**
    - OS disk type: **Standard SSD**
@@ -90,7 +90,7 @@
 
   **B**. Network and Security:
 
-  ![ws name.](media/demo210.png)
+![ws name.](media/demo210.png)
     
    Leave all values to default, except:
     
@@ -103,14 +103,14 @@
    
   **C**. Domain Administrator Account:
   
-   ![ws name.](media/demo211.png)
+![ws name.](media/demo211.png)
   
    - AD domain join UPN: **AVDPresentor01@AVDDemo.com**
    - Password: *Paste the password* **<inject key="Demo Admin Password" />**
 
   **D**. Virtual Machine Administrator Account:
 
-   ![ws name.](media/demo214.png)
+![ws name.](media/demo214.png)
   
    - Username: **hostadmin**
    - Password: *Paste the password* **<inject key="Demo Admin Password" />**
@@ -122,14 +122,14 @@
    - Register desktop app group: *Choose* **Yes** 
    - To this workspace: *Click on* **Create new**
 
-   ![ws name.](media/demo213.png)
+![ws name.](media/demo213.png)
    
 9. Once you click on **Create new**, a small window pops up, where you can specify the Workspace name you are going to create.  
 
    - Workspace name: OfficeEastUS 
    - Click on **OK**
      
-   ![ws name.](media/demo212.png) 
+![ws name.](media/demo212.png) 
 
 10. Now click on **Review + create** on the bottom left corner. 
 
@@ -137,5 +137,3 @@
 >**Note:** The last window helps us to verify if the parameters we filled are correct.
 
 11. Click on **Cancel** to cancel the deployment.
-
-    
