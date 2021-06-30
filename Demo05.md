@@ -31,6 +31,6 @@ In This Demo we will be exploring Insigts on Azure Virtual Desktop
   ![ws name.](media/demoin05.png)
 
 
-7. Under user page we can also monitor *Connection time by host*.
+7. Under user page we can also monitor *Connection time by host* of the user.
 
    ![ws name.](media/demoin06.png)
