@@ -1,4 +1,4 @@
-# **Demo: Insights**
+# **Demo 5: AVD Insights (Log Analytics)**
 
 In This Demo we will be exploring Insigts on Azure Virtual Desktop
 

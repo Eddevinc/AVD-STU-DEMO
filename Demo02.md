@@ -1,4 +1,4 @@
-# **Demo 2: How to create Host Pools**
+# **Demo 2: How to create Host Pools (Walkthrough only)**
 
 
 ## **Task 1: Adding Host Pools**
