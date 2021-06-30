@@ -225,9 +225,7 @@ In this demo, we will access the Desktop assigned to an end user using an AVD Cl
 
 
 
-## **Task 5: Access the Published Desktops using AVD Client**
-Select Pooled and talk through Breadth-First vs. Depth First Load Balancing Options:
-
+## **Task 5: Select Pooled and talk through Breadth-First and Depth First Load Balancing Options**
 
 Azure Virtual Desktop supports two load-balancing methods. Each method determines which session host will host a user's session when they connect to a resource in a host pool. While configuring a host pool, we can select load balancing methods as per the needs.
 The following load-balancing methods are available in Windows Virtual Desktop:
