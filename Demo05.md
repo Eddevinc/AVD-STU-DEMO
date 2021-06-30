@@ -30,4 +30,4 @@ In This Demo we will be exploring Insigts on Azure Virtual Desktop
 
   ![ws name.](media/demoin05.png)
 
->**Note:** Here we can monitor stats like *Connections over time* of a user.
+>**Note:** Here we can monitor various stats like *Connections over time* and much more regarding a user.
