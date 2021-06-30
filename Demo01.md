@@ -20,6 +20,7 @@ In this demo, we will access the Desktop and RemoteApps assigned to an end user 
  - All the user’s starting with **‘E’** in their first name belongs to **East US** region. 
  - All the user’s starting with **‘C’** in their first name belongs to **Central US** region.
  - All the users are licensed with M365 License
+ - All the users have their password set to: <inject key="demo Admin Password" />
 
 1. Open the below URL for Remote Desktop Web Client in a new browser tab on the JumpVM or your computer. 
       ```
@@ -250,6 +251,3 @@ In this demo, we will access the Desktop assigned to an end user using an AVD Cl
       - Click on **File Shares** and then **upd**; here you will see the User Profiles created for our previous Demo User's Logins.
 
       ![ws name.](media/img30.png)
-      
-
-
