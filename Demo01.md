@@ -26,7 +26,7 @@
    ![](media/gs04.png)
    
 
-### Below are the files you'll need to get started with your session:
+### **Below are the files you'll need to get started with your session:**
 
 **- ["Avddemo.com.vsdx" visio file can be downloaded from here](https://github.com/Eddevinc/AVD-STU-DEMO/raw/main/media/AVDDemo.com.vsdx)**
 
