@@ -36,9 +36,9 @@
  **Project Details – (A)** Defines the Host Pool environment 
 
    - Subscription: *Choose the default subscription*.
-   - Resource Group: *Select the name of Resource Group from the drop down*.
+   - Resource Group: *Select the Resource Group from the drop down*.
    - Host Pool Name: *Provide a name for the host pool*
-   - Location: **Select the region in which we want to deploy the host pool
+   - Location: *Select the region in which we want to deploy the host pool*
    - Validation environmet: **No**
       
    >**Note:** Validation host pools let you monitor service updates before rolling them out to your production environment.
@@ -74,8 +74,8 @@
   **A**. Session Host Specifications:     
 
    - Resource Group: *Select Resource Group from the drop down*.
-   - Name prefix: Provide an appropriate prefix for the Virtual Machine Name
-   - Virtual machine location: Select the region in which we want to create our session hosts.
+   - Name prefix: _Provide an appropriate prefix for the Virtual Machine Name_
+   - Virtual machine location: _Select the region in which we want to create our session hosts._
    - Availability options: _Select_ **No infrastructure redundancy required** _from the drop down_.
    - Image type: **Gallery**
    - Image: **Windows 10 Enterprise multi-session, version 20H2 (GEN 2)** *(choose from dropdown)*
@@ -94,8 +94,8 @@
     
    Leave all values to default, except:
     
-   - Virtual network: Select the Virtual Network *(choose from dropdown)*
-   - Subnet: Select the subnet for Virtual Machines *(choose from dropdown)*
+   - Virtual network: *Select the Virtual Network (choose from dropdown)*
+   - Subnet: _Select the subnet for Virtual Machines (choose from dropdown)_
    - Specify Domain or Unit: **Yes**
    - Domain to join: **avddemo.com**
    - Organizational Unit path: **OU=EastUS,OU=AVD,OU=Computers,OU=AVDDemo,DC=AVDDemo,DC=com**
