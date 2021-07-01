@@ -1,5 +1,33 @@
 # **Getting Started**
 
+
+1. Once you launch the lab, a virtual machine (JumpVM) on the left and lab guide on the right will get loaded in your browser. Use this virtual machine throughout the workshop to perform the lab.	
+
+   ![](media/gs01.png)	
+
+2. You will have the **Environment Details** tab located next to the *Lab Guide* tab that will provide you details such as Username, Password for your user.
+
+   ![](media/gs02.png)	
+   
+3. Next to _Environment Details_ tab you will have **Resources** tab which will display the status of all the Virtual Machines available in your environment. 
+
+   ![](media/gs05.png)	
+
+4. You will also have a set of **Actions** to control the Virtual Machines. The _Actions_ are as follows:
+	* **Start:** Use this button to _Start_ a virtual machine.
+	* **Restart:** Use this button to _Restart_ a virtual machine.
+	* **Stop:** Use this button to _Deallocate_ a virtual machine.
+   
+   ![](media/gs03.png)	
+ 
+ 5. At last, you will have **Help** tab in which we have listed known issues such as Unable to copy paste, Need credentials and much more. In case if you face any of these issues, you can troubleshoot it by following the insturctions given there.
+ 
+
+   ![](media/gs04.png)
+   
+
+6. Below are the files you'll need to get started with your session:
+
 - ["Avddemo.com.vsdx" visio file can be downloaded from here](https://github.com/Eddevinc/AVD-STU-DEMO/raw/main/media/AVDDemo.com.vsdx)
 
 - ["Azure Virtual Desktop.pptx" powerpoint file can be downloaded from here](https://github.com/Eddevinc/AVD-STU-DEMO/raw/main/media/Azure%20Virtual%20Desktop.pptx)
