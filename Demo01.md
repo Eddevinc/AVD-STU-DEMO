@@ -3,7 +3,7 @@
 
 1. Once you launch the lab, a virtual machine (JumpVM) on the left and lab guide on the right will get loaded in your browser. Use this virtual machine throughout the workshop to perform the lab.	
 
-   ![](media/gs01.png)	
+   ![](media/gs06.png)	
 
 2. You will have the **Environment Details** tab located next to the *Lab Guide* tab that will provide you details such as Username, Password for your user.
 
