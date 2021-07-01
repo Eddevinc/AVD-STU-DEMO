@@ -14,16 +14,18 @@
    ![](media/gs05.png)	
 
 4. You will also have a set of **Actions** to control the Virtual Machines. The _Actions_ are as follows:
+	
 	* **Start:** Use this button to _Start_ a virtual machine.
 	* **Restart:** Use this button to _Restart_ a virtual machine.
 	* **Stop:** Use this button to _Deallocate_ a virtual machine.
+   
    
    ![](media/gs03.png)	
  
  5. At last, you will have **Help** tab in which we have listed known issues such as Unable to copy paste, Need credentials and much more. In case if you face any of these issues, you can troubleshoot it by following the insturctions given there.
  
 
-   ![](media/gs04.png)
+   	![](media/gs04.png)
    
 
 ### **Below are the files you'll need to get started with your session:**
