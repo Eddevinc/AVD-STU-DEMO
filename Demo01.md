@@ -26,11 +26,11 @@
    ![](media/gs04.png)
    
 
-6. Below are the files you'll need to get started with your session:
+### Below are the files you'll need to get started with your session:
 
-- ["Avddemo.com.vsdx" visio file can be downloaded from here](https://github.com/Eddevinc/AVD-STU-DEMO/raw/main/media/AVDDemo.com.vsdx)
+**- ["Avddemo.com.vsdx" visio file can be downloaded from here](https://github.com/Eddevinc/AVD-STU-DEMO/raw/main/media/AVDDemo.com.vsdx)**
 
-- ["Azure Virtual Desktop.pptx" powerpoint file can be downloaded from here](https://github.com/Eddevinc/AVD-STU-DEMO/raw/main/media/Azure%20Virtual%20Desktop.pptx)
+**- ["Azure Virtual Desktop.pptx" powerpoint file can be downloaded from here](https://github.com/Eddevinc/AVD-STU-DEMO/raw/main/media/Azure%20Virtual%20Desktop.pptx)**
 
 
 
