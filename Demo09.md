@@ -92,7 +92,18 @@ In addition to chat and collaboration, Teams on VDI with calling and meetings is
 
 In this Demo; we will demonstrate the end user experience of joining meetings through Teams RemoteApp and how the end users can SHARE the screen of the physical Computer they are using.
 
-1. On the remotely launched Teams App, navigate to *Calendar* and Click on *Meet now*
+1. On the remotely launched Teams App, navigate to *Calendar* > *Meet now* and click on *Start meeting*
 
 ![ws name.](media/img52.png)
 
+2. On the *"Choose your audio and video settings"* page; verify the devices and click *Join now*
+
+![ws name.](media/img53.png)
+
+3. Bring up the *Share tray* and highlight that the screens that are available to be shared are from the Physical computer.
+
+![ws name.](media/img54.png)
+
+**Talk through tip:**
+   **Mention to the audience:**
+ - Despite of Teams being launched from an AVD Session host; we are able to share the actual Physical Screen of the Computer being used to access AVD.
