@@ -26,6 +26,18 @@
   {
         "RawFilePath": "https://raw.githubusercontent.com/Eddevinc/AVD-STU-DEMO/main/Demo06.md",
         "Order": 6
+      },
+  {
+        "RawFilePath": "https://raw.githubusercontent.com/Eddevinc/AVD-STU-DEMO/main/Demo07.md",
+        "Order": 7
+      },
+  {
+        "RawFilePath": "https://raw.githubusercontent.com/Eddevinc/AVD-STU-DEMO/main/Demo08.md",
+        "Order": 8
+      },
+  {
+        "RawFilePath": "https://raw.githubusercontent.com/Eddevinc/AVD-STU-DEMO/main/Demo09.md",
+        "Order": 9
       }
 ]
   }
