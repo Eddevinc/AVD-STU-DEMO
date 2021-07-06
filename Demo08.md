@@ -1,81 +1,41 @@
-# **Demo 8: Microsoft Teams Azure Virtual Desktop Optimized experience**
+# AVD Management with Intune
 
-Microsoft Teams on Azure Virtual Desktop supports chat and collaboration. With media optimizations, it also supports calling and meeting functionality.
-With media optimization for Microsoft Teams, the Windows Desktop client handles audio and video locally for Teams calls and meetings. You can still use Microsoft Teams on Azure Virtual Desktop with other clients without optimized calling and meetings.
+## Microsoft Intune
 
-## Teams on VDI with calling and meetings
+Microsoft Intune is a cloud-based service that focuses on mobile device management (MDM) and mobile application management (MAM). You have control over how your organization's 
+devices, including corporate devices, mobile phones, tablets, and laptops, are utilised. You can also define particular security policies to control applications. 
 
-In addition to chat and collaboration, Teams on VDI with calling and meetings is available with supported virtualization provider platforms. Supported features are based on the WebRTC media stack and virtualization provider implementation. The following diagram provides an overview of the architecture.
+Intune integrates with Azure Active Directory (Azure AD) to control who has access and what they can access. It also works with Azure Information Protection to protect data. It is compatible with the Microsoft 365 range of products.
 
-![ws name.](media/img43.png)
-
-## **Task 1: Demonstrate Teams Audio Optimized experience**
-
-1.	Launch the native (non remote app) Teams application from your Laptop and open **Settings** page, Navigate to the *Devices* tab.
-
-2.	Demonstrate to the Audience and highlight the Physical *Audio devices* present on your Computer.
-
-![ws name.](media/img44.png)
-
-3.	Demonstrate to the Audience and highlight the Physical *Camera* present on your Computer.
-
-![ws name.](media/img45.png)
-
-4.	*Quit* Teams from your Computer by Right Clicking the Teams icon from System tray and click **Quit**
+For example, you can deploy Microsoft Teams, OneNote, and other Microsoft 365 apps to devices. This feature helps employees in your organization to be productive across all of their devices while also protecting your organization's data through regulations you define.
 
 
-**Task 2: Access the Published Teams Application using AVD Client Installed on your OWN Laptop**
+## Microsoft Endpoint Manager
 
->**Note:** Use the AVD Client installed on your Physical Laptop for this Demo.
+Microsoft Intune has moved to Microsoft Endpoint Manager. It contributes to the delivery of a modern workplace and modern management in order to keep your data protected whether in the cloud and on-premises. 
+Endpoint Manager provides services and tools for managing and monitoring mobile devices, desktop computers, virtual machines, embedded devices, and servers.
 
-1. Launch AVD Client on your Laptop.
+It combines services including Microsoft Intune, Configuration Manager, Desktop Analytics, co-management, and Windows Autopilot and much more.
 
->**Note:** If you are already logged in as the end user, jump to *step 3*.
 
-2. In AVD desktop client click on **Subscribe**.
+## AVD Management with Intune
 
-   ![ws name.](media/img9.png)
+Following are the technical configurations and criteria that must be completed before we can use WVD Intune.
 
-3. Enter the credentials as below:
+* Make sure the VMs are Hybrid AAD Join - Azure AD Connect confirgutation should be in place to support Hybrid Azure AD Join scenarios.
+* MDM Group Policy for All WVD VMs - This is a way to enroll Hybrid Azure AD joined Windows devices to Intune automatically. 
 
-   - Enter the username as below and click **Next**.
-       ```
-       Erika.6182@AVDDemo.com
-       ```   
+Now we will move to Microsoft Endpoint Manager.
 
-   ![ws name.](media/img10.png)   
-   
-   - Enter the password <inject key="demo Admin Password" /> and click **Sign in**.   
+1. Open a browser and sign in to the [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
 
-   ![ws name.](media/img11.png)
+2. When you open the Microsoft Endpoint Manager, the service is displayed in a pane of your browser. Some of the first workloads you may use in Intune include Devices, Apps, Users, and Groups. A workload is simply a sub-area of a service. When you select the workload, it opens that pane as a full page. Other panes slide out from the right side of the pane when they open, and close to reveal the previous pane.
 
-4. The RemoteApps and the Workspace published to the logged in user will show up, click on **Microsoft Teams** application to access it.
+By default, when you open the Microsoft Endpoint Manager you'll see the Home page pane. This pane provides an overall visual snapshot of tenant status and compliance status, as well as other helpful related links
 
-   ![ws name.](media/img46.png)
-   
-5. Enter the credentials for *Erika.6182@AVDDemo.com* and click on **Submit**.
+![ws name.](media/demo08-08.png)
 
-   ![ws name.](media/img14.png)
 
-6. Upon successful login, **Microsoft Teams** RemoteApp will load. 
 
-   ![ws name.](media/img47.png)
-   
 
-7. Verify media optimizations loaded
 
-    - Select the *Settings and more* menu next to your user profile image, then select *About* > Select *Version*:
-
-    ![ws name.](media/img48.png)
-
-    - If media optimizations loaded, the banner will show you Azure Virtual Desktop Media optimized. If the banner shows you Azure Virtual Desktop Media not connected, quit the Teams app and try again.
-
-    ![ws name.](media/img49.png)
-
-    - Select the *Settings* menu next to your user profile image, then select *Devices*.
-
-    - If media optimizations loaded, the audio devices and cameras available locally will be enumerated in the device menu.
-
-    ![ws name.](media/img50.png)    
-
-    >**Note:** If the menu shows Remote audio, quit the Teams app and try again. If the devices still don't appear in the menu, check the Privacy settings on your local PC. Ensure the under Settings > Privacy > App permissions - Microphone the setting "Allow apps to access your microphone" is toggled On. Disconnect from the remote session, then reconnect and check the audio and video devices again. To join calls and meetings with video, you must also grant permission for apps to access your camera.
