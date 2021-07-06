@@ -9,7 +9,7 @@ In addition to chat and collaboration, Teams on VDI with calling and meetings is
 
 ![ws name.](media/img43.png)
 
-## **Task 1: Demonstrate Teams Audio Optimized experience**
+## **Task 1a: Demonstrate Teams Audio Optimized experience**
 
 >**Note:** Use the AVD Client installed on your Physical Laptop for this Demo.
 
@@ -27,7 +27,7 @@ In addition to chat and collaboration, Teams on VDI with calling and meetings is
 
 
 
-## **Task 2: Access the Published Teams Application using AVD Client Installed on your OWN Laptop**
+## **Task 1b: Access the Published Teams Application using AVD Client Installed on your OWN Laptop**
 
 >**Note:** Use the AVD Client installed on your Physical Laptop for this Demo.
 
@@ -82,3 +82,17 @@ In addition to chat and collaboration, Teams on VDI with calling and meetings is
     ![ws name.](media/img50.png)    
 
     >**Note:** If the menu shows Remote audio, quit the Teams app and try again. If the devices still don't appear in the menu, check the Privacy settings on your local PC. Ensure the under Settings > Privacy > App permissions - Microphone the setting "Allow apps to access your microphone" is toggled On. Disconnect from the remote session, then reconnect and check the audio and video devices again. To join calls and meetings with video, you must also grant permission for apps to access your camera.
+
+8. Do not close the Teams window for next Demo.
+
+
+## **Task 2: Demonstrate AVD optimized meeting and screen sharing experience**
+
+>**Note:** Use the AVD Client installed on your Physical Laptop for this Demo.
+
+In this Demo; we will demonstrate the end user experience of joining meetings through Teams RemoteApp and how the end users can SHARE the screen of the physical Computer they are using.
+
+1. On the remotely launched Teams App, navigate to *Calendar* and Click on *Meet now*
+
+![ws name.](media/img52.png)
+
