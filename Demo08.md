@@ -67,6 +67,38 @@ Now we will move to Microsoft Endpoint Manager.
 
 ![ws name.](media/demo08-16.png)
 
+7. Select **Compliance policies** available under _Policy_ tab, to view details regarding compliance for Intune-managed devices.
+
+![ws name.](media/demo08-17.png)
+
+8. Intune compliance policies specify the rules and settings that users and devices must follow in order to be compliant. There are two parts to compliance policies in Intune:
+
+* **Compliance policy settings –** Tenant-wide settings that act as a built-in compliance policy for each device.
+
+* **Device compliance policy –** Configure and deploy platform-specific rules to groups of users or devices here. 
+
+9. On the **Compliance policies** page, you will have a Device compliance policy created for Windows 10.
+
+![ws name.](media/demo08-18.png)
+
+10. Select the policy to open it and then select **Properties** available under _Manage_ tab. Here you can review that what all is configured in this policy for a user. 
+
+![ws name.](media/demo08-19.png)
+
+11. Select **Conditional access** available under _Policy_ tab, to display details about access policies.
+
+![ws name.](media/demo08-20.png)
+
+12. 
+
+
+
+
+
+
+
+
+
 
 
 
