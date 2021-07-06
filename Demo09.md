@@ -26,7 +26,8 @@ In addition to chat and collaboration, Teams on VDI with calling and meetings is
 4.	*Quit* Teams from your Computer by Right Clicking the Teams icon from System tray and click **Quit**
 
 
-**Task 2: Access the Published Teams Application using AVD Client Installed on your OWN Laptop**
+
+## **Task 2: Access the Published Teams Application using AVD Client Installed on your OWN Laptop**
 
 >**Note:** Use the AVD Client installed on your Physical Laptop for this Demo.
 
