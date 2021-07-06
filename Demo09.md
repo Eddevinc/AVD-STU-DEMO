@@ -105,5 +105,4 @@ In this Demo; we will demonstrate the end user experience of joining meetings th
 ![ws name.](media/img54.png)
 
 **Talk through tip:**
-**Mention to the audience:**
  - Despite of Teams being launched from an AVD Session host; we are able to share the actual Physical Screen of the Computer being used to access AVD.
