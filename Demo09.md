@@ -1,4 +1,4 @@
-# **Demo 8: Microsoft Teams Azure Virtual Desktop Optimized experience**
+# **Demo 9: Microsoft Teams Azure Virtual Desktop Optimized experience**
 
 Microsoft Teams on Azure Virtual Desktop supports chat and collaboration. With media optimizations, it also supports calling and meeting functionality.
 With media optimization for Microsoft Teams, the Windows Desktop client handles audio and video locally for Teams calls and meetings. You can still use Microsoft Teams on Azure Virtual Desktop with other clients without optimized calling and meetings.
