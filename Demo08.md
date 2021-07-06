@@ -29,11 +29,49 @@ Now we will move to Microsoft Endpoint Manager.
 
 1. Open a browser and sign in to the [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
 
-2. When you open the Microsoft Endpoint Manager, the service is displayed in a pane of your browser. Some of the first workloads you may use in Intune include Devices, Apps, Users, and Groups. A workload is simply a sub-area of a service. When you select the workload, it opens that pane as a full page. Other panes slide out from the right side of the pane when they open, and close to reveal the previous pane.
-
-By default, when you open the Microsoft Endpoint Manager you'll see the Home page pane. This pane provides an overall visual snapshot of tenant status and compliance status, as well as other helpful related links
+2. The Home page pane provides an overall visual snapshot of **Tenant status** and **Compliance status**, as well as other helpful related links. 
 
 ![ws name.](media/demo08-08.png)
+
+3. In the Microsoft Endpoint Manager, you will have all the services displayed in a pane on the left side of the browser. 
+
+![ws name.](media/demo08-09.png)
+
+4. Select **Dashboard** from the navigation pane. It displays overall details about the devices and client apps in your Intune tenant.
+
+![ws name.](media/demo08-10.png)
+
+5. Now move to **Devices** available under _Favorites_ tab. This section display the details about the enrolled devices in your Intune tenant.
+
+![ws name.](media/demo08-11.png)
+
+6. On the **Overview** page, the strip on the top have several tabs that allow you to view a summary of the following statuses and alerts:
+
+* **Enrollment status -** Here you will have details about the devices enrolled with Intune by platform and enrollment failures.
+
+![ws name.](media/demo08-12.png)
+
+* **Enrollment alerts -** One can find more details about the devices those are unassigned by the platform.
+ 
+![ws name.](media/demo08-13.png)
+
+* **Compliance status -** This section displays a list of devices that do not have a compliance policy. Also you can review the status of compliance in terms of device, policy, setting, threats, and protection.
+
+![ws name.](media/demo08-14.png)
+
+* **Configuration status -** Here you can review the configuration status of device profiles as well as profile deployment.
+
+![ws name.](media/demo08-15.png)
+
+* **Software update status -** In this section, one can have a look to visuals of the deployment status for all devices and for all users.
+
+![ws name.](media/demo08-16.png)
+
+
+
+
+
+
 
 
 
