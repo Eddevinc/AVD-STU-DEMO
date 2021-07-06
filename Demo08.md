@@ -31,11 +31,11 @@ Now we will move to Microsoft Endpoint Manager.
 
 2. The Home page pane provides an overall visual snapshot of **Tenant status** and **Compliance status**, as well as other helpful related links. 
 
-![ws name.](media/demo08-08.png)
+![ws name.](media/demo8-08.png)
 
 3. In the Microsoft Endpoint Manager, you will have all the services displayed in a pane on the left side of the browser. 
 
-![ws name.](media/demo08-09.png)
+![ws name.](media/demo8-09.png)
 
 4. Select **Dashboard** from the navigation pane. It displays overall details about the devices and client apps in your Intune tenant.
 
