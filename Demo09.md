@@ -11,6 +11,8 @@ In addition to chat and collaboration, Teams on VDI with calling and meetings is
 
 ## **Task 1: Demonstrate Teams Audio Optimized experience**
 
+>**Note:** Use the AVD Client installed on your Physical Laptop for this Demo.
+
 1.	Launch the native (non remote app) Teams application from your Laptop and open **Settings** page, Navigate to the *Devices* tab.
 
 2.	Demonstrate to the Audience and highlight the Physical *Audio devices* present on your Computer.
