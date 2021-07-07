@@ -2,20 +2,13 @@
 
 ## Microsoft Intune
 
-Microsoft Intune is a cloud-based service that focuses on mobile device management (MDM) and mobile application management (MAM). You have control over how your organization's 
-devices, including corporate devices, mobile phones, tablets, and laptops, are utilised. You can also define particular security policies to control applications. 
+Microsoft Intune is a cloud-based service that focuses on mobile device management (MDM) and mobile application management (MAM). You have control over how your company's gadgets, such as corporate devices, mobile phones, tablets, and laptops, are used. To restrict applications, you can also set specific security policies. 
 
-Intune integrates with Azure Active Directory (Azure AD) to control who has access and what they can access. It also works with Azure Information Protection to protect data. It is compatible with the Microsoft 365 range of products.
-
-For example, you can deploy Microsoft Teams, OneNote, and other Microsoft 365 apps to devices. This feature helps employees in your organization to be productive across all of their devices while also protecting your organization's data through regulations you define.
-
+Intune works with Azure Active Directory to manage who has access and what they can see. It also interacts with Azure Information Protection to keep the data secure.
 
 ## Microsoft Endpoint Manager
 
-Microsoft Intune has moved to Microsoft Endpoint Manager. It contributes to the delivery of a modern workplace and modern management in order to keep your data protected whether in the cloud and on-premises. 
-Endpoint Manager provides services and tools for managing and monitoring mobile devices, desktop computers, virtual machines, embedded devices, and servers.
-
-It combines services including Microsoft Intune, Configuration Manager, Desktop Analytics, co-management, and Windows Autopilot and much more.
+Microsoft Intune has moved to Microsoft Endpoint Manager. It serves to deliver a modern workplace and modern management in order to keep your data safe, both in the cloud and on-premises. It combines services including Microsoft Intune, Configuration Manager, Desktop Analytics, co-management, and Windows Autopilot and much more.
 
 
 ## AVD Management with Intune
