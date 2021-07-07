@@ -15,8 +15,8 @@ Microsoft Intune has moved to Microsoft Endpoint Manager. It serves to deliver a
 
 Following are the technical configurations and criteria that must be completed before we can use WVD Intune.
 
-* Make sure the VMs are Hybrid AAD Join - Azure AD Connect confirgutation should be in place to support Hybrid Azure AD Join scenarios.
-* MDM Group Policy for All WVD VMs - This is a way to enroll Hybrid Azure AD joined Windows devices to Intune automatically. 
+* **Make sure the VMs are Hybrid AAD Join -** Azure AD Connect confirgutation should be in place to support Hybrid Azure AD Join scenarios.
+* **MDM Group Policy for All WVD VMs -** This is a way to enroll Hybrid Azure AD joined Windows devices to Intune automatically. 
 
 Now we will move to Microsoft Endpoint Manager.
 
