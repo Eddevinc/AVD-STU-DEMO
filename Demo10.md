@@ -25,13 +25,35 @@ Microsoft Defender ATP then examines the behavior of the programs that run on yo
 
 **Dashboards:**	In the Dashboard, you can Access the active automated investigations, active alerts, automated investigations statistics, devices at risk, users at risk, devices with sensor issues, service health, detection sources, and daily devices reporting dashboards.
 
-![](media/demo10-2.gif?raw=true)
+![](media/demo10-3.gif?raw=true)
 
 
+**Incidents:**	View alerts that have been combined as incidents in this section.
+
+![](media/demo10-4.gif?raw=true)
 
 
+**Devices list:**	The Device list presents a list of devices that have been added to Defender for Endpoint, as well as basic information about them, as well as their exposure and risk levels.
 
-**Incidents:** 
+**Alerts queue:**	Here you can view alerts received by your workplace's devices.
+
+**Automated investigations:**	Displays automated investigations that have been conducted in the network, triggering alert, the status of each investigation and other details such as when the investigation started and the duration of the investigation.
+
+**Advanced hunting:**	Advanced hunting allows you to proactively hunt and investigate across your organization using a powerful search and query tool.
+
+**Reports:**	View graphs detailing threat protection, device health and compliance, web protection, and vulnerability.
+
+**Partners & APIs:**	View supported partner connections, which enhance the detection, investigation, and threat intelligence capabilities of the platform. You can also view connected applications, the API explorer, API usage overview, and data export settings.
+
+**Threat & Vulnerability management:**	View your Microsoft Secure Score for Devices, exposure score, exposed devices, vulnerable software, and take action on top security recommendations.
+
+**Evaluation and tutorials:**	Manage test devices, attack simulations, and reports. Learn and experience the Defender for Endpoint capabilities through a guided walk-through in a trial environment.
+
+**Service health:**	Provides information on the current status of the Defender for Endpoint service. You'll be able to verify that the service health is healthy or if there are current issues.
+
+**Configuration management:**	Displays on-boarded devices, your organizations' security baseline, predictive analysis, web protection coverage, and allows you to perform attack surface management on your devices.
+
+**Settings:**	Shows the settings you selected during onboarding and lets you update your industry preferences and retention policy period. You can also set other configuration settings such as permissions, APIs, rules, device management, IT service management, and network assessments.
 
 
 
