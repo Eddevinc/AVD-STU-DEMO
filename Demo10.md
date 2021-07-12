@@ -30,9 +30,9 @@ Microsoft Defender ATP then examines the behavior of the programs that run on yo
 
 **Incidents:**	View alerts that have been combined as incidents in this section. You can also view the device which has caused the incident.
 
-![](media/demo-10-5.gif?raw=true)
+![](media/demo10-5.gif?raw=true)
 
-![](media/demo-10-6.gif?raw=true)
+![](media/demo10-6.gif?raw=true)
 
 **Devices Inventory:**	The Device Inventoy presents a list of devices that have been added to Defender for Endpoint, as well as basic information about them, as well as their exposure and risk levels.
 
