@@ -30,7 +30,7 @@ Microsoft Defender ATP then examines the behavior of the programs that run on yo
 
 **Incidents:**	View alerts that have been combined as incidents in this section.
 
-![](media/demo10-4.gif?raw=true)
+![](media/demo-10-4.gif?raw=true)
 
 
 **Devices list:**	The Device list presents a list of devices that have been added to Defender for Endpoint, as well as basic information about them, as well as their exposure and risk levels.
