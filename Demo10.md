@@ -25,7 +25,7 @@ Microsoft Defender ATP then examines the behavior of the programs that run on yo
 
 **Dashboards:**	In the Dashboard, you can Access the active automated investigations, active alerts, automated investigations statistics, devices at risk, users at risk, devices with sensor issues, service health, detection sources, and daily devices reporting dashboards.
 
-![](../media/demo10-2.gif?raw=true)
+![](media/demo10-2.gif?raw=true)
 
 
 
