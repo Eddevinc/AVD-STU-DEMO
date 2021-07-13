@@ -156,8 +156,9 @@ Connecting Microsoft Defender ATP and Microsoft Intune enables scenarios like co
 ![ws name.](media/demo10-16.png)
 
 
+14. Once you’ve deployed the device configuration profile, monitoring uptake is easy. The Microsoft Defender ATP compliance chart indicates how many devices have the agent and how many do not. This chart is in Device compliance, under Microsoft Defender ATP.
 
-
+![ws name.](media/demo10-17.png)
 
 
 
