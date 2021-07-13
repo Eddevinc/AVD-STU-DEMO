@@ -118,11 +118,11 @@ https://go.microsoft.com/fwlink/?linkid=2068602
 
 >**Note:** If you are already logged in as the end user, jump to *step 3*.
 
-2. In AVD desktop client click on **Subscribe**.
+3. In AVD desktop client click on **Subscribe**.
 
    ![ws name.](media/img9.png)
 
-3. Enter the credentials as below:
+4. Enter the credentials as below:
 
    - Enter the username as below and click **Next**.
        ```
@@ -143,16 +143,16 @@ https://go.microsoft.com/fwlink/?linkid=2068602
 >![ws name.](media/img3.png)
 >
 
-4. The RemoteApps and the Workspace published to the logged in user will show up, click on **Excel** application to access it.
+5. The RemoteApps and the Workspace published to the logged in user will show up, click on **Excel** application to access it.
 
    ![ws name.](media/img13.png)
    
 
-5. Enter the credentials for *Emma.4896@AVDDemo.com* and click on **Submit**.
+6. Enter the credentials for *Emma.4896@AVDDemo.com* and click on **Submit**.
 
    ![ws name.](media/img14.png)
 
-6. Upon successful Activation, the user can use the M365 Apps. 
+7. Upon successful Activation, the user can use the M365 Apps. 
 
    ![ws name.](media/img15.png)
    
