@@ -43,7 +43,7 @@ In addition to chat and collaboration, Teams on VDI with calling and meetings is
 
    - Enter the username as below and click **Next**.
        ```
-       Erika.6182@AVDDemo.com
+       Erin.4896@AVDDemo.com
        ```   
 
    ![ws name.](media/img10.png)   
@@ -56,7 +56,7 @@ In addition to chat and collaboration, Teams on VDI with calling and meetings is
 
    ![ws name.](media/img46.png)
    
-5. Enter the credentials for *Erika.6182@AVDDemo.com* and click on **Submit**.
+5. Enter the credentials for *Erin.4896@AVDDemo.com* and click on **Submit**.
 
    ![ws name.](media/img14.png)
 
