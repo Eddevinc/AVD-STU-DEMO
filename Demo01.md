@@ -108,7 +108,13 @@ In this demo, we will access the Desktop and RemoteApps assigned to an end user 
 In this demo, we will access the Desktop and RemoteApps assigned to an end user using a AVD Client.
 
 
-1. Launch AVD Client on your JumpVM.
+1. Download and Install the AVD Client on your JumpVM; use below URL:
+
+```
+https://go.microsoft.com/fwlink/?linkid=2068602
+```
+
+2. Launch AVD Client on your JumpVM.
 
 >**Note:** If you are already logged in as the end user, jump to *step 3*.
 
