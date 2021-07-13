@@ -86,6 +86,55 @@ Microsoft Defender ATP then examines the behavior of the programs that run on yo
 
 
 
+## Onboard devices in Microsoft Defender ATP using Microsoft Intune
+
+You can onboard any version of Windows that Microsoft Defender ATP supports. However, you must have a Windows 10 Enterprise E5 or Microsoft 365 Enterprise E5 license.
+
+Microsoft Defender ATP has some additional requirements that Windows 10 devices need to meet:
+
+* First, Microsoft Defender ATP requires the Diag Track service to be running in order to report cyber data. That’s the default Windows configuration, so just double-check that you haven’t turned it off.
+
+* Microsoft Defender ATP requires an Internet connection. Its sensor can use about 5 megabytes each day to talk to the cloud service, plus additional bandwidth for files and investigation packages(which are sent only if you request them).
+
+* Last, even if Windows Defender Antivirus isn’t the primary antimalware product, Microsoft Defender ATP relies on its passive mode to scan and provide information about files. 
+
+
+Connecting Microsoft Defender ATP and Microsoft Intune enables scenarios like conditional access based on threat levels, and it also streamlines the onboarding process, since you don’t have to manually perfrom it. You turn that connection on in both places.
+
+
+1. First, enable the Microsoft Intune connection in Microsoft Defender Security Center settings.
+
+2. Open [Microsoft Defender Security Center](https://securitycenter.windows.com/dashboard) in a browser. From the navigation pane in the left select **Settings**, then select **Advanced features** and scroll down to **Microsoft Intune connection**.
+
+![ws name.](media/demo10-7.png)
+
+3. Toggle the **Microsoft Intune connection** option to enable it
+
+![ws name.](media/demo10-8.png)
+
+4. Second, turn on the Microsoft Defender ATP connection in Microsoft Intune. That control is in Device compliance, Microsoft Defender ATP. That control is in Device compliance, Microsoft Defender ATP
+
+5. Connect to [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431)
+
+
+
+
+
+Once you’ve connected Microsoft Defender ATP and Microsoft
+
+Intune, create a device configuration profile
+
+for Windows 10 or later that’s based on the Microsoft Defender
+
+ATP profile type.
+
+There are only two settings to configure
+
+here, since Microsoft Defender ATP automatically provides
+
+the onboarding package.
+
+
 
 
 
