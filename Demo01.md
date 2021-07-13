@@ -63,7 +63,7 @@ In this demo, we will access the Desktop and RemoteApps assigned to an end user 
 
    - Enter the username as below and click **Next**.
        ```
-       Erika.6182@AVDDemo.com
+       Emma.4896@AVDDemo.com
        ```   
 
    ![ws name.](media/img10.png)
@@ -89,7 +89,7 @@ In this demo, we will access the Desktop and RemoteApps assigned to an end user 
 
    ![ws name.](media/img5.png)
    
-5. Enter the credentials for **Erika.6182@AVDDemo.com** and click on **Submit**.
+5. Enter the credentials for **Emma.4896@AVDDemo.com** and click on **Submit**.
 
    ![ws name.](media/img6.png)
 
@@ -120,7 +120,7 @@ In this demo, we will access the Desktop and RemoteApps assigned to an end user 
 
    - Enter the username as below and click **Next**.
        ```
-       Erika.6182@AVDDemo.com
+       Emma.4896@AVDDemo.com
        ```
    
 
@@ -142,7 +142,7 @@ In this demo, we will access the Desktop and RemoteApps assigned to an end user 
    ![ws name.](media/img13.png)
    
 
-5. Enter the credentials for *Erika.6182@AVDDemo.com* and click on **Submit**.
+5. Enter the credentials for *Emma.4896@AVDDemo.com* and click on **Submit**.
 
    ![ws name.](media/img14.png)
 
@@ -165,7 +165,7 @@ In this demo, we will access the Desktop assigned to an end user using a browser
 
    - Enter the username as below and click **Next**.
        ```
-       Cody.0629@AVDDemo.com
+       Camilia.4896@AVDDemo.com
        ```   
 
    ![ws name.](media/img16.png)
@@ -183,7 +183,7 @@ In this demo, we will access the Desktop assigned to an end user using a browser
 
    ![ws name.](media/img5.png)
    
-5. Enter the credentials for **Cody.0629@AVDDemo.com** and click on **Submit**.
+5. Enter the credentials for **Camilia.4896@AVDDemo.com** and click on **Submit**.
 
    ![ws name.](media/img19.png)
 
@@ -212,7 +212,7 @@ In this demo, we will access the Desktop assigned to an end user using an AVD Cl
 
 4. - Enter the username as below and click **Next**.
        ```
-       Ed.0629@AVDDemo.com
+       Eva.4896@AVDDemo.com
        ```   
    
    - Enter the password <inject key="demo Admin Password" /> and click **Sign in**.
@@ -222,7 +222,7 @@ In this demo, we will access the Desktop assigned to an end user using an AVD Cl
    ![ws name.](media/img24.png)
    
 
-6. Enter the credentials for *Ed.0629@AVDDemo.com* and click on **OK**.
+6. Enter the credentials for *Eva.4896@AVDDemo.com* and click on **OK**.
 
 7. Once signed in, the Full Desktop session will be presented to the user. 
 
