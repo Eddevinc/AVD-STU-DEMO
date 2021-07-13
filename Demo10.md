@@ -114,9 +114,61 @@ Connecting Microsoft Defender ATP and Microsoft Intune enables scenarios like co
 
 4. Second, turn on the Microsoft Defender ATP connection in Microsoft Intune. That control is in Device compliance, Microsoft Defender ATP. That control is in Device compliance, Microsoft Defender ATP
 
-5. Connect to [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431) and create a device configuration profile for Windows 10 or later that’s based on the Microsoft Defender ATP profile type.
+5. Connect to [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431) and create a device configuration profile for Windows 10 or later that’s based on the Microsoft Defender ATP profile type. 
 
-6. 
+6. From the navigation pane in the left select **Devices**, then select **Configuration profiles**
+
+![ws name.](media/demo10-10.png)
+
+7. You can add a new policy by selecting **+ Create Policy** and assign the profile to the devices you want to target.
+
+![ws name.](media/demo10-11.png)
+
+8. Select the following options from drop downs:
+
+* **Platform:** Windows 0 and later
+* **Profile type** Templates
+* **Template Name:** Microsoft Defender for Endpoint (Windows 10 Desktop) 
+* Select **Create**
+
+![ws name.](media/demo10-12.png)
+
+9. On the **Basics** tab, enter the following values for:
+
+* **Name:** Microsoft Defender for Endpoint (Windows 10 Desktop)
+* **Descritpion:** Microsoft Defender for Endpoint (Windows 10 Desktop) 
+* Select **Next**
+
+![ws name.](media/demo10-13.png)
+
+10. On the **Configuration settings** tab, select **Enable** for Expedite telemetry reporting frequency and select **Next**.
+
+![ws name.](media/demo10-14.png)
+
+11. On the **Assignments** tab, fom Included groups secion select **+ Add all users** and **+ Add all devices** and select **Next**.
+
+![ws name.](media/demo10-15.png)
+
+12. On the **Applicability Rules** tab, leave all on default and select **Next**.
+
+13. On **Summary** page, review all the configurations and select **Create** to create the profiles.
+ 
+![ws name.](media/demo10-16.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
