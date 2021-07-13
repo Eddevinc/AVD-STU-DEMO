@@ -114,27 +114,9 @@ Connecting Microsoft Defender ATP and Microsoft Intune enables scenarios like co
 
 4. Second, turn on the Microsoft Defender ATP connection in Microsoft Intune. That control is in Device compliance, Microsoft Defender ATP. That control is in Device compliance, Microsoft Defender ATP
 
-5. Connect to [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431)
+5. Connect to [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431) and create a device configuration profile for Windows 10 or later that’s based on the Microsoft Defender ATP profile type.
 
-
-
-
-
-Once you’ve connected Microsoft Defender ATP and Microsoft
-
-Intune, create a device configuration profile
-
-for Windows 10 or later that’s based on the Microsoft Defender
-
-ATP profile type.
-
-There are only two settings to configure
-
-here, since Microsoft Defender ATP automatically provides
-
-the onboarding package.
-
-
+6. 
 
 
 
