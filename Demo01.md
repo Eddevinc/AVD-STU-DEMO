@@ -22,7 +22,7 @@
    
    ![](media/gs03.png)	
  
- 5. At last, you will have **Help** tab in which we have listed known issues such as Unable to copy paste, Need credentials and much more. In case if you face any of these issues, you can troubleshoot it by following the insturctions given there.
+ 5. At last, you will have **Help** tab in which we have listed known issues such as Unable to copy paste, Need credentials and much more. In case if you face any of these issues, you can troubleshoot it by following the instructions given there.
  
 
    	![](media/gs04.png)
