@@ -28,7 +28,7 @@ https://aka.ms/wvdarmweb
     
 5.	Enter the credentials as given below:
 
-  * **Username** – Enter the username **Ed.0629@AVDDemo.com** and click on **Next**.
+  * **Username** – Enter the username **Eva.4896@AVDDemo.com** and click on **Next**.
     
 ![ws name.](media/demo03.png)
     
@@ -50,7 +50,7 @@ https://aka.ms/wvdarmweb
            
 ![ws name.](media/demo06.png)
     
-9. Enter the credentials for **Ed.0629@AVDDemo.com** and click on **Submit**.
+9. Enter the credentials for **Eva.4896@AVDDemo.com** and click on **Submit**.
  
 ![ws name.](media/demo07.png)
     
@@ -66,7 +66,7 @@ https://aka.ms/wvdarmweb
     
 12.	Enter the credentials as given below:
   
-  * **Username** – **Emily.6548@AVDDemo.com** and click on **Next**. 
+  * **Username** – **Emma.4896@AVDDemo.com** and click on **Next**. 
 
 ![ws name.](media/demo10.png)
     
@@ -83,7 +83,7 @@ https://aka.ms/wvdarmweb
 
 ![ws name.](media/demo12.png)
 
-14.	Enter the credentials for **Emily@AVDDemo.com** and click on **OK**.
+14.	Enter the credentials for **Emma.4896@AVDDemo.com** and click on **OK**.
  
 ![ws name.](media/demo13.png)
 
@@ -121,7 +121,7 @@ https://aka.ms/wvdarmweb
 
 6.	Enter the credentials as given below:
 
-  * **Username** – Enter the username **Callie.0629@AVDDemo.com** and click on **Next**.
+  * **Username** – Enter the username **Cindy.4896@AVDDemo.com** and click on **Next**.
 
 ![ws name.](media/demo17.png)
 
@@ -143,7 +143,7 @@ https://aka.ms/wvdarmweb
  
 ![ws name.](media/demo06.png)
 
-9.	 Enter the credentials for **Callie.0629@AVDDemo.com** and click on **Submit**. 
+9.	 Enter the credentials for **Cindy.4896@AVDDemo.com** and click on **Submit**. 
 
 ![ws name.](media/demo20.png)
 
@@ -157,7 +157,7 @@ https://aka.ms/wvdarmweb
 
 12.	Enter the credentials as given below:
 
-  * **Username** – **Cody.0629@AVDDemo.com** and click on **Next**. 
+  * **Username** – **Camilia.4896@AVDDemo.com** and click on **Next**. 
 
 ![ws name.](media/demo22.png)
 
@@ -175,7 +175,7 @@ https://aka.ms/wvdarmweb
  
 ![ws name.](media/demo24.png)
 
-14.	Enter the credentials for **Cody.0629@AVDDemo.com** and click on **Submit**.
+14.	Enter the credentials for **Camilia.4896@AVDDemo.com** and click on **Submit**.
  
 ![ws name.](media/demo25.png)
 
