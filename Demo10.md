@@ -161,13 +161,30 @@ Connecting Microsoft Defender ATP and Microsoft Intune enables scenarios like co
 ![ws name.](media/demo10-17.png)
 
 
+## Microsoft Defender ATP - Attack Simulation & Investigation Demos
 
+1. Launch AVD Client on your local system and select **Subscribe**.
 
+![ws name.](media/demo09.png)
 
+2. Enter the credentials as given below:
+  
+  * **Username** – **Camilia.4896@AVDDemo.com** and click on **Next**. 
 
+![ws name.](media/demo10-18.png)
+    
+  * **Password** – Enter the password and click on **Sign in**.
 
+![ws name.](media/demo10-19.png)
 
+> **Note:** If there's a dialog box with More information required, select Skip for now option.
+>    
+![ws name.](media/img3.png)
+>
 
+3. ,
+
+![ws name.](media/demo26.png)
 
 
 
