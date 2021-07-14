@@ -8,15 +8,26 @@ Microsoft 365 Defender combines functionality from existing Microsoft security p
 
 ## Microsoft Defender Security Center 
 
-1. Open a browser and sign in to the [Microsoft Defender Security Center](https://security.microsoft.com/homepage).
+1. Open a browser and sign in to the [Microsoft 365 Defender](https://security.microsoft.com/homepage).
 
-2. On the homepage you will have Navigation pane (select the horizontal lines at the top left of the navigation pane to show or hide it). 
+2. On the homepage you will have Navigation pane (select the horizontal lines at the top left of the navigation pane to show or hide it). Here you can explore the portal by using the menu options given in each section
 
 ![](media/upd10-1.gif?raw=true)
 
-3. You can explore the portal by using the menu options given in each section.
+3. The homepage of the portal gives an overview of multiple items such as:
 
-![ws name.](media/demo10-2.png)
+* **Microsoft Secure Score** is a metric that measures an organization's security posture, with a higher number of opportunities to improve it.
+* **Users at risk** is basically a represntation of the information specific to the security risk of a user account.
+* **Threat analytics** allows you to continuously assess and control your risk of being exposed to threats. Use the charts to quickly determine whether or not a device has mitigations.
+* **Device compliance** chart helps you to review Intune device compliance status and troubleshoot compliance-related issues in your organization.
+* **Active incidents**
+* **Devices with active malware**
+* **Discovered devices**
+* **Microsoft 365 Defender Feed**
+
+
+
+![](media/upd10-2.gif?raw=true)
 
 4. Now you will have alook to each of the section provided in the navigation pane and they are as follows:
 
