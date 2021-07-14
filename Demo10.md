@@ -182,7 +182,7 @@ Connecting Microsoft Defender ATP and Microsoft Intune enables scenarios like co
 ![ws name.](media/img3.png)
 >
 
-3. ,
+3. Once signed in, the Full Desktop session will be presented to the user.
 
 ![ws name.](media/demo26.png)
 
