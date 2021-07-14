@@ -1,22 +1,18 @@
 # Microsoft Defender ATP 
 
-Microsoft Defender ATP is a very effective post-breach solution that enables automatic endpoint detection and response. It identifies and remediates malicious activities on your endpoints automatically. It analyses the scope and potential impact of each attack, reporting on the various threats to your organization's devices and allows you to rapidly and easily counteract and remove the threats using advanced tools and automation.
+Microsoft 365 Defender is an integrated, cross-domain threat-detection and response solution. It can aid in the prevention, detection, investigation, and remediation of sophisticated threats across Microsoft 365. It also acts in the prevention of attacks by reducing your attack surface and eliminating persistent threats. Then, it automates threat resolution across domains by combining threat data for a quick and thorough response.
 
-Because it is hosted in the cloud, Microsoft Defender ATM is agentless and does not require any setup or infrastructure. The method employs 'endpoint behavioral sensors,' which are installed in each device's operating system.
+It also frees up defenders' time to focus on proactive hunting and other critical tasks such as developing custom tools and applying proprietary tactics and knowledge to better defend the organization.
 
-These Windows sensors are constantly gathering data and passing it to your organization's own Microsoft Defender cloud instance.
-Microsoft Defender ATP then examines the behavior of the programs that run on your organization's machines to see whether anything seems to be a threat.
-
-
-
+Microsoft 365 Defender combines functionality from existing Microsoft security portals such as Microsoft Defender Security Center and Office 365 Security & Compliance Center. The security centre prioritises easy access to information, simpler layouts, and combining related information for easier use.
 
 ## Microsoft Defender Security Center 
 
-1. Open a browser and sign in to the [Microsoft Defender Security Center](https://securitycenter.windows.com/dashboard).
+1. Open a browser and sign in to the [Microsoft Defender Security Center](https://security.microsoft.com/homepage).
 
 2. On the homepage you will have Navigation pane (select the horizontal lines at the top left of the navigation pane to show or hide it). 
 
-![ws name.](media/demo10-1.png)
+![](media/upd10-1.gif?raw=true)
 
 3. You can explore the portal by using the menu options given in each section.
 
