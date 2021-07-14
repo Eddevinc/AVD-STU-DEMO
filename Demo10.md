@@ -20,12 +20,10 @@ Microsoft 365 Defender combines functionality from existing Microsoft security p
 * **Users at risk** is basically a represntation of the information specific to the security risk of a user account.
 * **Threat analytics** allows you to continuously assess and control your risk of being exposed to threats. Use the charts to quickly determine whether or not a device has mitigations.
 * **Device compliance** chart helps you to review Intune device compliance status and troubleshoot compliance-related issues in your organization.
-* **Active incidents**
-* **Devices with active malware**
-* **Discovered devices**
-* **Microsoft 365 Defender Feed**
-
-
+* **Active incidents** shows the latest incidents and alerts received by your workplace's devices. 
+* **Devices with active malware** helps you to review Intune-managed devices with active, unresolved malware.
+* **Discovered devices** 
+* **Microsoft 365 Defender Feed** is a section where you can find what new with Microsoft 365 Defender.
 
 ![](media/upd10-2.gif?raw=true)
 
