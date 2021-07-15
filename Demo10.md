@@ -77,6 +77,15 @@ Likewise, you can also see a list of impacted **Users**, **Mailboxes**, all auto
 
 ![](media/upd10-10.gif?raw=true)
 
+  * **Impacted Assets:** It lists the devices and mailboxes impacted by the threat in your organization. That is, they have alerts related to the threat.
+
+
+ 
+
+
+
+
+
 
 
 
