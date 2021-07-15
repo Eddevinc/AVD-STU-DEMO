@@ -55,14 +55,27 @@ Likewise, you can also see a list of impacted **Users**, **Mailboxes**, all auto
   
 ![](media/upd10-7.gif?raw=true)
 
+* **Action Center:** To investigate incidents, Microsoft 365 Defender uses extensive cross-domain automation and artificial intelligence. In many cases, it can stop threats without the assistance of the security team. However, some remediations may require approval, which you can do in the Action Center.
 
+* **Threat analytics:** Threat analytics is a built-in threat intelligence solution that helps security teams face emerging threats as efficiently as possible. You can identify and react to emerging threats by comparing your security posture to them, all in one place.
 
+  * In here you can see a ribbon in the top showing activities such as **Ransomware, Phishing and Vulnerability**.
+  * You will a information about latest threats, those which have high-impact, and an over all summary.
+  * Now, select a threat to open the report.
 
+![ws name.](media/upd10-1.png)
 
+  * You will immediately see a short summary of the threat and an overview of your security posture related specifically to it.
 
+![](media/upd10-8.gif?raw=true)
 
+  * **Analyst Report:** It contains the detailed threat intelligence. That includes a deep-dive analysis that usually features a kill-chain diagram, recommended mitigations, detection details, oftentimes advanced hunting queries that you can use to expand your detection coverage and MITRE techniques, 
 
+![](media/upd10-9.gif?raw=true)
 
+  * **Related incidents:** It lists incidents related to this specific threat. You can select an incident to open its details in the side pane which will have details such as status, classification, entities impacted by it, and so on.
+
+![](media/upd10-10.gif?raw=true)
 
 
 
