@@ -43,29 +43,17 @@ Microsoft 365 Defender combines functionality from existing Microsoft security p
 
 ![](media/upd10-5.gif?raw=true)
 
-Likewise, you can also see a list of impacted **Users**, **Mailboxes**, all automated **Investigations** that Microsoft 365 Defender performed, including their statuses and service sources, and all the evidence that it reviewed during those investigations. 
+Likewise, you can also see a list of impacted **Users**, **Mailboxes**, all automated **Investigations** that Microsoft 365 Defender performed, including their statuses and service sources, and all the **Evidence** that it reviewed during those investigations. 
 
 ![](media/upd10-6.gif?raw=true)
 
 
+* **Advanced hunting:** By taking advantage of the extensive automation in Microsoft 365 Defender, your security team now has the time and resources to proactively hunt across the wealth of data it provides. Leverage the team's organizational experience and knowledge to find sophisticated breaches and create custom tools and response workflows--by using advanced hunting.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  Get started by selecting one of the example queries from the list or create your own queries using the schema that advanced hunting provides. In many cases, writing your own query is simply not necessary. You'll find a tremendous number of useful queries shared by the community, suggested by Microsoft 365 Defender, and shared by your team.
+  
+  
+![](media/upd10-7.gif?raw=true)
 
 
 
