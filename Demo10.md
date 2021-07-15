@@ -10,7 +10,7 @@ Microsoft 365 Defender combines functionality from existing Microsoft security p
 
 1. Open a browser and sign in to the [Microsoft 365 Defender](https://security.microsoft.com/homepage).
 
-2. On the homepage you will have Navigation pane (select the horizontal lines at the top left of the navigation pane to show or hide it). Here you can explore the portal by using the menu options given in each section
+2. On the homepage you will have **Navigation pane** (select the horizontal lines at the top left of the navigation pane to show or hide it). Here you can explore the portal by using the menu options given in each section
 
 ![](media/upd10-1.gif?raw=true)
 
@@ -26,6 +26,68 @@ Microsoft 365 Defender combines functionality from existing Microsoft security p
 * **Microsoft 365 Defender Feed** is a section where you can find what new with Microsoft 365 Defender.
 
 ![](media/upd10-2.gif?raw=true)
+
+4. Now you will have alook to each of the section provided in the navigation pane and they are as follows:
+
+* **Incidents & alerts:** Microsoft 365 Defender reduces confusion and clutter by combining alerts from across Microsoft 365 and categorizing them as **Incidents**, all on a single dashboard. They help to prioritize work, reduce signal fatigue, and provide more comprehensive views of threats. You can explore different tabs such as:
+
+  * **Summary:** The Summary tab provides detailed information about the attackers' techniques, the scope of impacted entities, and the evidence uncovered. The entire attack can be seen in context with a quick glance. Other tabs provide more specific information.
+
+![](media/upd10-3.gif?raw=true)
+
+   * **Alerts:** The Alerts tab displays the alerts associated with this incident. It enables you to fully understand the remediation methods implemented by Microsoft 365 Defender in the face of a threat.
+
+![](media/upd10-4.gif?raw=true)
+
+   * **Devices:** On the Devices tab, you can see a list of the devices affected by this incident. As with any entity in an incident, you can select a device to get more detail.
+
+![](media/upd10-5.gif?raw=true)
+
+Likewise, you can also see a list of impacted **Users**, **Mailboxes**, all automated **Investigations** that Microsoft 365 Defender performed, including their statuses and service sources, and all the evidence that it reviewed during those investigations. 
+
+![](media/upd10-6.gif?raw=true)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 4. Now you will have alook to each of the section provided in the navigation pane and they are as follows:
 
