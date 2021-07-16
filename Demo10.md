@@ -175,22 +175,22 @@ Now moving to **Endpoints** section, you will have tabs as listed below:
 
 * **Audit:** Auditing offers an integrated solution to assist organisations in responding effectively to security events, forensic investigations, internal investigations, and compliance obligations. This feature provides insight into the activities carried out across your Microsoft 365 organisation.
 
-  * Basic Audit provides with you with the ability to log and search for audited activities and power your forensic, IT, compliance, and legal investigations
+  * Audit provides with you with the ability to log and search for audited activities and power your forensic, IT, compliance, and legal investigations. Use the Audit log search tool in the Microsoft 365 compliance center to search for audit records. You can search for specific activities, for activities performed by specific users, and activities that occurred with a date range. 
 
-![](media/upd10-18.gif?raw=true)
+![](media/upd10-19.gif?raw=true)
 
-  * **Health:**
-  * **Permissions & roles:**
-  * **Setting:**
+* **Health:** Admins are users added to the admin role, and can view any data and complete any task in the Microsoft 365 security center. You should have few admins, and grant users only the permissions needed to perform their duties when you assign access.
 
+* **Permissions & roles:** 
+  
+  
+* **Settings:** 
 
+![ws name.](media/upd10-11.png)
 
+   * **Endpoint:**	Shows the settings you selected during onboarding and lets you update your industry preferences and retention policy period. You can also set other configuration settings such as permissions, APIs, rules, device management, IT service management, and network assessments.
 
-
-
-* **Settings:**	Shows the settings you selected during onboarding and lets you update your industry preferences and retention policy period. You can also set other configuration settings such as permissions, APIs, rules, device management, IT service management, and network assessments.
-
-![](media/demo10-11.gif?raw=true)
+![](media/upd10-20.gif?raw=true)
 
 
 
@@ -214,7 +214,7 @@ Connecting Microsoft Defender ATP and Microsoft Intune enables scenarios like co
 
 2. Open [Microsoft Defender Security Center](https://securitycenter.windows.com/dashboard) in a browser. From the navigation pane in the left select **Settings**, then select **Advanced features** and scroll down to **Microsoft Intune connection**.
 
-![ws name.](media/demo10-7.png)
+![ws name.](media/upd10-12.png)
 
 3. Toggle the **Microsoft Intune connection** option to enable it
 
