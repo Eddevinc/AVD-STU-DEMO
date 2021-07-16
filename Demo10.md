@@ -108,7 +108,39 @@ Likewise, you can also see a list of impacted **Users**, **Mailboxes**, all auto
 
   * At last in **Metrics & trends**, you'll see even more insights, and you can see things like your score zones, a comparison trend over time of your score, and how it compares to other organizations like yours and maybe in a similar industry. You can also see any regressions due to configuration, user, or device changes. 
  
-You can see your score changes since your last discussion or check in. And any risk acceptance trends for the improvement actions, where you've opted out or said that you want to accept the risk of not implementing. 
+  You can see your score changes since your last discussion or check in. And any risk acceptance trends for the improvement actions, where you've opted out or said that you want to accept the risk of not implementing. 
+
+     ![ws name.](media/upd10-7.png)
+
+* **Devices Inventory:** The Device Inventoy presents a list of devices that have been added to Defender for Endpoint, as well as basic information about them, as well as their exposure and risk levels.
+
+![ws name.](media/upd10-8.png)
+
+* **Vulnerability management:**
+
+
+**Dashboard**	Get a high-level view of the organization exposure score, Microsoft Secure Score for Devices, device exposure distribution, top security recommendations, top vulnerable software, top remediation activities, and top exposed device data.
+
+**Security recommendations**	See the list of security recommendations and related threat information. When you select an item from the list, a flyout panel opens with vulnerability details, a link to open the software page, and remediation and exception options. You can also open a ticket in Intune if your devices are joined through Azure Active Directory and you've enabled your Intune connections in Defender for Endpoint.
+
+**Remediation**	See remediation activities you've created and recommendation exceptions.
+
+**Software inventory**	See the list of vulnerable software in your organization, along with weakness and threat information.
+
+**Weaknesses**	See the list of common vulnerabilities and exposures (CVEs) in your organization.
+
+**Event timeline**	View events that may impact your organization's risk.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
