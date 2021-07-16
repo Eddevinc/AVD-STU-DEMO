@@ -112,35 +112,52 @@ Likewise, you can also see a list of impacted **Users**, **Mailboxes**, all auto
 
      ![ws name.](media/upd10-7.png)
 
+
+Now moving to **Endpoints** section, you will have tabs as listed below:
+
+
 * **Devices Inventory:** The Device Inventoy presents a list of devices that have been added to Defender for Endpoint, as well as basic information about them, as well as their exposure and risk levels.
 
 ![ws name.](media/upd10-8.png)
 
-* **Vulnerability management:**
+* **Vulnerability management:** Select the drop down and you will have the following tabs available for you:
 
+  * **Dashboard**	This section provides a high-level overview of the organization's exposure score, Microsoft Secure Score for Devices, device exposure distribution, top security recommendations, top vulnerable software, top remediation activities, and top exposed device data.
 
-**Dashboard**	Get a high-level view of the organization exposure score, Microsoft Secure Score for Devices, device exposure distribution, top security recommendations, top vulnerable software, top remediation activities, and top exposed device data.
+      ![](media/upd10-11.gif?raw=true)
 
-**Security recommendations**	See the list of security recommendations and related threat information. When you select an item from the list, a flyout panel opens with vulnerability details, a link to open the software page, and remediation and exception options. You can also open a ticket in Intune if your devices are joined through Azure Active Directory and you've enabled your Intune connections in Defender for Endpoint.
+  * **Security recommendations**	See the list of security recommendations and related threat information. When you select an item from the list, a flyout panel opens with vulnerability details, a link to open the software page, and remediation and exception options. You can also open a ticket in Intune if your devices are joined through Azure Active Directory and you've enabled your Intune connections in Defender for Endpoint.
 
-**Remediation**	See remediation activities you've created and recommendation exceptions.
+      ![](media/upd10-12.gif?raw=true)
 
-**Software inventory**	See the list of vulnerable software in your organization, along with weakness and threat information.
+  * **Remediation**	You can view the remediation activities you've created as well as the recommended exceptions.
+      
+  * **Software inventory**	View the list of vulnerable software in your organization, along with weakness and threat information.
 
-**Weaknesses**	See the list of common vulnerabilities and exposures (CVEs) in your organization.
+      ![ws name.](media/upd10-9.png)
 
-**Event timeline**	View events that may impact your organization's risk.
+  * **Weaknesses**	In this section, you have a list of common vulnerabilities and exposures (CVEs) in your organization.
 
+      ![](media/upd10-13.gif?raw=true)
 
+  * **Event timeline**	View events that may impact your organization's risk.
 
+      ![](media/upd10-14.gif?raw=true)
 
+* **Partners & APIs:** Here you can see the supported partner connections, which improve the platform's detection, investigation, and threat intelligence capabilities under **Partner applications**. 
+  
+  * You can view connected applications, the API explorer is used to test Microsoft Defender for Endpoint capabilities, here you can use the sample queries to get started.
+  * View supported partner connections under Professional services tab. You can enhance the detection, investigation, and threat intelligence capabilities of the platform with the help of partner connections.
 
+      ![](media/upd10-15.gif?raw=true)
 
+* **Evaluation and tutorials:** Manage test devices, attack simulations, and reports. Learn and experience the Defender for Endpoint capabilities through a guided walk-through in a trial environment.
 
+![](media/upd10-16.gif?raw=true)
 
+* **Configuration management:** Displays on-boarded devices, your organizations' security baseline, predictive analysis, web protection coverage, and allows you to perform attack surface management on your devices.
 
-
-
+![ws name.](media/upd10-10.png)
 
 
 
