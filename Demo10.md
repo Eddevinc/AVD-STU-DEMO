@@ -164,8 +164,9 @@ Now moving to **Endpoints** section, you will have tabs as listed below:
   * **Explorer:**
   * **Threat Tracker:**
   * **Attack simulation tracking:**
-  * **Policies & rules:**
+  * **Policies & rules:** You can use this section to set up policies to manage devices, protect against threats, and receive alerts about various activities in your organization.
 
+![ws name.](media/upd10-13.png)
 
 * **Reports:** View data on security trends and monitor the security status of your identities, data, devices, apps, and infrastructure.
 
