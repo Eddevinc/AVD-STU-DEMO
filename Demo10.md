@@ -163,7 +163,8 @@ Now moving to **Endpoints** section, you will have tabs as listed below:
 
   * **Explorer:**
   * **Threat Tracker:**
-  * **Attack simulation tracking:**
+  * **Attack simulation tracking:** To run realistic attack scenarios in your organisation, you can use Attack simulation training in the Microsoft 365 Defender portal. These simulated attacks can assist you in identifying and locating vulnerable users before a real attack has an impact on your bottom line.
+  
   * **Policies & rules:** You can use this section to set up policies to manage devices, protect against threats, and receive alerts about various activities in your organization.
 
 ![ws name.](media/upd10-13.png)
@@ -277,30 +278,9 @@ Connecting Microsoft Defender ATP and Microsoft Intune enables scenarios like co
 ![ws name.](media/demo10-17.png)
 
 
-## Microsoft Defender ATP - Attack Simulation & Investigation Demos
+## Microsoft 365 Defender - Attack Simulation Training
 
-1. Launch AVD Client on your local system and select **Subscribe**.
-
-![ws name.](media/demo09.png)
-
-2. Enter the credentials as given below:
-  
-  * **Username** – **Camilia.4896@AVDDemo.com** and click on **Next**. 
-
-![ws name.](media/demo10-18.png)
-    
-  * **Password** – Enter the password and click on **Sign in**.
-
-![ws name.](media/demo10-19.png)
-
-> **Note:** If there's a dialog box with More information required, select Skip for now option.
->    
-![ws name.](media/img3.png)
->
-
-3. Once signed in, the Full Desktop session will be presented to the user.
-
-![ws name.](media/demo26.png)
+1.
 
 
 
