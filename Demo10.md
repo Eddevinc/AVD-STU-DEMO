@@ -168,6 +168,13 @@ Now moving to **Endpoints** section, you will have tabs as listed below:
 
 ![ws name.](media/upd10-13.png)
 
+   * **Threat policy:** You can create policies that will help in protecting your organization from malicious impersonation-based phishing attacks and other types of phishing attacks.
+ 
+![ws name.](media/upd10-14.png)
+
+   * Likewise, you have **Alert policy** to track user and admin activities, malware threats, or data loss incidents in your organization, **Manage advanced alerts** to set up policies that can alert you to suspicious and anomalous activity in Microsoft 365.  
+
+
 * **Reports:** View data on security trends and monitor the security status of your identities, data, devices, apps, and infrastructure.
 
 ![](media/upd10-17.gif?raw=true)
