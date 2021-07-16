@@ -159,10 +159,27 @@ Now moving to **Endpoints** section, you will have tabs as listed below:
 
 ![ws name.](media/upd10-10.png)
 
+* **Email & collaboration:** 
+
+  * **Explorer:**
+  * **Threat Tracker:**
+  * **Attack simulation tracking:**
+  * **Policies & rules:**
 
 
+* **Reports:** View data on security trends and monitor the security status of your identities, data, devices, apps, and infrastructure.
 
+![](media/upd10-17.gif?raw=true)
 
+![](media/upd10-18.gif?raw=true)
+
+* **Audit:** Auditing offers an integrated solution to assist organisations in responding effectively to security events, forensic investigations, internal investigations, and compliance obligations. This feature provides insight into the activities carried out across your Microsoft 365 organisation.
+
+  * Basic Audit provides with you with the ability to log and search for audited activities and power your forensic, IT, compliance, and legal investigations
+
+  * **Health:**
+  * **Permissions & roles:**
+  * **Setting:**
 
 
 
