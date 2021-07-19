@@ -164,7 +164,9 @@ Now moving to **Endpoints** section, you will have tabs as listed below:
   * **Explorer:**
   * **Threat Tracker:**
   * **Attack simulation tracking:** To run realistic attack scenarios in your organisation, you can use Attack simulation training in the Microsoft 365 Defender portal. These simulated attacks can assist you in identifying and locating vulnerable users before a real attack has an impact on your bottom line.
-  
+
+![ws name.](media/upd10-15.png)
+
   * **Policies & rules:** You can use this section to set up policies to manage devices, protect against threats, and receive alerts about various activities in your organization.
 
 ![ws name.](media/upd10-13.png)
@@ -280,7 +282,73 @@ Connecting Microsoft Defender ATP and Microsoft Intune enables scenarios like co
 
 ## Microsoft 365 Defender - Attack Simulation Training
 
-1.
+You can use Attack simulation training in the Microsoft 365 Defender portal to run realistic attack scenarios in your organization. These simulated attacks can assist you in identifying and locating vulnerable users before a real-world attack has an impact on your bottom line. More information can be found in this article.
+
+You should have permissions in the Microsoft 365 Defender portal or in Azure Active Directory before you can perfrom attack simulation. Specifically, you need to be a member of Organization Management, Security Administrator, or one of the following roles:
+
+* Attack Simulator Administrators: Create and managed all aspects of attack simulation campaigns.
+* Attack Simulator Payload Authors: Create attack payloads that an admin can initiate later.
+
+1. In Microsoft 265 Defender portal, navigate to **Email & collaboration > Attack simulation training > Simulations** tab and select **+ Launch a simulation**.
+
+![ws name.](media/upd10-16.png)
+
+2. In **Select Technique** section, you will have multiple types of social engineering techniques as listed below:
+
+* Credential harvest
+* Malware attachment
+* Link in attachment
+* Link to malware
+* Drive-by-url
+
+3. You will be able to access various types of payloads depending on your choice. Here we are selecting **Credential harvest** and then select **Next**.
+
+![ws name.](media/upd10-17.png)
+
+4. Provide a **Simulation Name**, **Description** for the simulation you are creating and then select **Next**.
+
+![ws name.](media/upd10-18.png)
+
+5. In **Payload** section, we have different payloads, where a Payload is the content of the attack. The simulation attack training techniques would contain items such as attachments and links that would perform the actions—these are the payloads. 
+
+6. Scroll down and select **Password Reset Request** payload, then click on the payload itself to see how it will show up in a real scenario.
+
+![](media/upd10-21.gif?raw=true)
+
+7. Once reviewed, select **Next** in the _Payload_ section. 
+
+![ws name.](media/upd10-19.png)
+
+8. In **Target users** section, you have to add users. Select **Include only specific users and groups** and then select **+ Add users**. You can add filters to improve the search results. Here we are selecting **Users not targeted by a simulation in last three months** and click on **Apply** button. Now you can select users from the list and select **Add Users**. At last select **Next**.
+
+![](media/upd10-22.gif?raw=true)
+
+9. In **Assign Training** section, leave **Preferences** on default and select **7 days after simulation ends** under **Due Date**. Select **Next**.
+
+![ws name.](media/upd10-20.png)
+
+10. On the next page, you have **Training landing page**. Here you can review the page that will be visible to the user under attack. Select **Preview Page** to see the page.
+
+![](media/upd10-23.gif?raw=true)
+
+11. You can actually customize those text here for the **Header** and **Body**. So you can put in like organization specific text that you'd like. After that select **Next**.
+
+![ws name.](media/upd10-21.png)
+
+12. At last, you have **Launch Details** section, you can choose either to launch the simulator right now, like when you've created it or you can schedule this simulation for shortly in the future. You can also pick a date, launch time and  select the date when to end the simulation. 
+
+![](media/upd10-23.gif?raw=true)
+
+13. You also have an option here to **Enable region aware time zone delivery** and what this does is this looks for each of your users, looks at their calendar and based on where they have set their available times are, it will send these phishing emails when they're actually available and online.
+
+![ws name.](media/upd10-21.png)
+
+
+
+
+
+
+
 
 
 
