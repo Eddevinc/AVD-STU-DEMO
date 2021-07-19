@@ -349,7 +349,7 @@ You should have permissions in the Microsoft 365 Defender portal or in Azure Act
 
 15. Select **Done** on _Simulation has been scheduled for launch_ screen. You should be able to see it on this list, the simulation that you've just launched and it's in progress right now.
 
-![ws name.](media/upd10-23.png)
+![ws name.](media/upd10-24.png)
 
 
 
