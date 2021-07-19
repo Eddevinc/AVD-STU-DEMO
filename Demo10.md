@@ -339,15 +339,17 @@ You should have permissions in the Microsoft 365 Defender portal or in Azure Act
 
 ![](media/upd10-23.gif?raw=true)
 
-13. You also have an option here to **Enable region aware time zone delivery** and what this does is this looks for each of your users, looks at their calendar and based on where they have set their available times are, it will send these phishing emails when they're actually available and online.
+13. You also have an option here to **Enable region aware time zone delivery** and what this does is this looks for each of your users, looks at their calendar and based on where they have set their available times are, it will send these phishing emails when they're actually available and online. Once done, select **Next**.
 
-![ws name.](media/upd10-21.png)
+![ws name.](media/upd10-22.png)
 
+14. In **review Simulation** section, you can go ahead and review all the settings. Select **Submit** to send out the simulation.
 
+![ws name.](media/upd10-23.png)
 
+15. Select **Done** on _Simulation has been scheduled for launch_ screen. You should be able to see it on this list, the simulation that you've just launched and it's in progress right now.
 
-
-
+![ws name.](media/upd10-23.png)
 
 
 
