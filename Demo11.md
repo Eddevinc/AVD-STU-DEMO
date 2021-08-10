@@ -82,7 +82,7 @@ In this demo, we will access the Desktop using a AVD Client and launch an MSIX A
 
     ![ws name.](media/msix9.png)
 
-9. But in the classic "Programs and features" window, the App is not installed:
+9. But in the classic "Programs and Features" window, the App is not installed:
 
     ![ws name.](media/msix10.png)
 
