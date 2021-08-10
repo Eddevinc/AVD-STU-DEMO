@@ -37,3 +37,15 @@ To on-board Azure Sentinel, you first need to enable Azure Sentinel, and then co
 1. Sign in to the Azure portal and search for and select Azure Sentinel.
 
 ![ws name.](media/sentinel2.png)
+
+2. Click on **log-analytics-avd-prod-EUS1-001**
+
+![ws name.](media/sentinel3.png)
+
+3. Click on **Data Connectors** and highlight the Connected Data connectors
+
+![ws name.](media/sentinel4.png)
+
+4. Click on **Azure Active Directory** and then click on **Open connector page**
+
+![ws name.](media/sentinel5.png)
