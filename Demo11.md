@@ -86,9 +86,10 @@ In this demo, we will access the Desktop using a AVD Client and launch an MSIX A
 
     ![ws name.](media/msix10.png)
 
-10. Launch **PowerShell** as an Admin, Enter your AVD Presenter UserName and Password and run *DiskMgmt.msc* command to bring up the Disk Manager. Highlight how the 7-Zip VHD is mounted to support the MSIX App 7-Zip. This VHD contains the MSIX App Data for the Application:
-
+10. Launch **PowerShell** as an Admin, Enter your AVD Presenter UserName and Password and run **DiskMgmt.msc** command to bring up the Disk Manager.
   - Username: AVDPresentor01@AVDDemo.com
   - Password: **<inject key="Demo Admin Password" />**
+
+11. Highlight how the 7-Zip VHD is mounted to support the MSIX App 7-Zip. This VHD contains the MSIX App Data for the Application:
 
     ![ws name.](media/msix11.png)
