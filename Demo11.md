@@ -53,16 +53,16 @@ In this demo, we will access the Desktop using a AVD Client and launch an MSIX A
    ![ws name.](media/img21.png)
 
 3. - Enter the below feed URL and click **Next**.
-       ```
-       https://rdweb.wvd.microsoft.com/api/arm/feeddiscovery
-       ```   
+```
+https://rdweb.wvd.microsoft.com/api/arm/feeddiscovery
+```   
 
    ![ws name.](media/img23.png)
 
 4. - Enter the username as below and click **Next**.
-       ```
-       Emma.4896@AVDDemo.com
-       ```   
+```
+Emma.4896@AVDDemo.com
+```   
    
    - Enter the password <inject key="demo Admin Password" /> and click **Sign in**.
 
