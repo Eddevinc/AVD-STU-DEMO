@@ -1,4 +1,4 @@
-# Microsoft Defender ATP 
+# **Demo 10: Microsoft Defender ATP** 
 
 Microsoft 365 Defender is an integrated, cross-domain threat-detection and response solution. It can aid in the prevention, detection, investigation, and remediation of sophisticated threats across Microsoft 365. It also acts in the prevention of attacks by reducing your attack surface and eliminating persistent threats. Then, it automates threat resolution across domains by combining threat data for a quick and thorough response.
 

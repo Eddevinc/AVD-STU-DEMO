@@ -1,4 +1,4 @@
-# Demo 7 - Azure Security Center
+# **Demo 7: - Azure Security Center**
 
 Azure Security Center is a single infrastructure security management system that improves the security posture of your data centres and provides sophisticated threat prevention 
 across your hybrid workloads in the cloud, whether in Azure or not.

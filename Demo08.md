@@ -1,4 +1,4 @@
-# AVD Management with Intune
+# **Demo 8: AVD Management with Intune**
 
 ## Microsoft Intune
 
