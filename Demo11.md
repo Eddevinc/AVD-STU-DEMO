@@ -25,19 +25,25 @@ In a Azure Virtual Desktop deployment, MSIX app attach can:
 ## Prerequisites that are already completed for this Demo
 
 1. MSIX-packaged application (7-Zip) expanded into an MSIX image (VHD) that's uploaded into a file share:
+
 ![ws name.](media/img55.png)
 
 2. AVD SessionHost VMs are provided "Storage File Data SMB Share Contributor" access permissions:
+
 ![ws name.](media/msix1.png)
 
 3. The MSIX Package is Signed by using a Self Signed Certificate. The same Certificate is being added to the Trusted Certificate Authorities Store on all the AVD Session Host VMs using MEM:
+
 ![ws name.](media/msix2.png)
 
 4. Added an MSIX image to the host pool and published MSIX app to an app group:
+
 ![ws name.](media/msix3.png)
+
 ![ws name.](media/msix4.png)
 
 5. The Remote App Group, which now also includes the MSIX App, is already assigned to a User Group:
+
 ![ws name.](media/msix5.png)
 
 ## **Task 1: Demonstrate using the MSIX App, 7-Zip through a Desktop Session**
