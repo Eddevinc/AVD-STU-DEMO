@@ -11,8 +11,12 @@
 				
 2. Sign in into the portal using the below credentials.
 
-  - Username: AVDPresentor01@AVDDemo.com
-  - Password: **<inject key="Demo Admin Password" />**
+- Username:
+```
+AVDPresentor01@AVDDemo.com
+```
+- Password:
+**<inject key="Demo Admin Password" />**
 
 ![ws name.](media/demo201.png)
 
