@@ -12,7 +12,7 @@ https://portal.azure.com
 ```
 AVDPresentor01@AVDDemo.com
 ```
-- Password:  **<inject key="Demo Admin Password" />**
+- Password: **<inject key="Demo Admin Password" />**
 
 ![ws name.](media/demo201.png)
 
