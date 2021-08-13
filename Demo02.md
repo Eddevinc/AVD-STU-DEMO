@@ -16,7 +16,7 @@
 
 ![ws name.](media/demo201.png)
 
->**Note:** If you are asked for MFA, Scan the below QR Code on your phone's Authenticator App
+>**Note:** If you are asked for MFA, Scan the below QR Code on your phone's Authenticator App and use the 6 digit code for MFA Authentication.
 >
 ![ws name.](media/qr.png)
 >
