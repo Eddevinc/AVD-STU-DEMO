@@ -3,19 +3,17 @@
 
 ## **Task 1: Adding Host Pools**
 
-1. In JumpVM launch Edge browser and navigate to Azure Portal using following URL.
-     
-      ```
-      https://portal.azure.com
-      ```
-				
+1. In JumpVM launch Edge browser and navigate to Azure Portal using following URL.     
+```
+https://portal.azure.com
+```				
 2. Sign in into the portal using the below credentials.
-
 - Username:
-      ```
-      AVDPresentor01@AVDDemo.com
-      ```
-- Password:  **<inject key="Demo Admin Password" />**
+```
+AVDPresentor01@AVDDemo.com
+```
+- Password:
+**<inject key="Demo Admin Password" />**
 
 ![ws name.](media/demo201.png)
 
