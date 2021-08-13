@@ -16,9 +16,9 @@
 
 ![ws name.](media/demo201.png)
 
->**Note:** On the following prompt, click on **Skip for now**
+>**Note:** If you are asked for MFA, Scan the below QR Code on your phone's Authenticator App
 >
-![ws name.](media/demo202.png)
+![ws name.](media/qr.png)
 >
 
 3. In Azure portal search for *Azure Virtual Desktop* and click on the search result.
