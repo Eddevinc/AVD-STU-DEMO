@@ -6,7 +6,7 @@ In this scenario, we simulate an attack that triggers the new Microsoft Defender
 
 To trigger automated investigation, we provide a attack lure document.
 
-Document drops backdoor: Scenario simulates attacks that are launched using a socially engineered lure document in a spear-phishing email. The lure is designed to ensure that the receiver doesn’t suspect a thing and unwittingly opens the document.
+**Document drops backdoor:** Scenario simulates attacks that are launched using a socially engineered lure document in a spear-phishing email. The lure is designed to ensure that the receiver doesn’t suspect a thing and unwittingly opens the document.
 
 The document, however, is weaponized with crafted macro code that silently drops and loads an executable file onto the device. Although this simulation uses a document that drops a benign executable, the executable behaves as if it is a backdoor attempting to gain persistence—it writes to a registry Run key and creates a scheduled task, both commonly known autostart extensibility points (ASEPs).
 
