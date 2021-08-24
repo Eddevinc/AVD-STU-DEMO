@@ -12,14 +12,6 @@ The document, however, is weaponized with crafted macro code that silently drops
 
 The attack simulation ends when the ASEPs are created. In the real world, however, the attacker is expected to use the implanted backdoor to perform other actions within the compromised network, such as moving laterally
 
-## The test device required for this simulation should:
-
-        • Be onboarded to Microsoft Defender for Endpoint
-        • Run Windows 10 Spring Creators Update preview
-        • Have PowerShell turned on
-        • Have Microsoft Defender Antivirus turned on
-        • Have Microsoft Word installed
-
 ## **Task 1: Run the simulation**
 
 Login to any AVD Session host using AVD Client and run Full Desktop Session.
