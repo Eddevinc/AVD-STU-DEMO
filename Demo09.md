@@ -52,6 +52,11 @@ In addition to chat and collaboration, Teams on VDI with calling and meetings is
 
    ![ws name.](media/img11.png)
 
+>**Note:** If you are asked for MFA, Scan the below QR Code on your phone's Authenticator App and use the 6 digit code for MFA Authentication.
+>
+![ws name.](media/erinqr.png)
+>
+
 4. The RemoteApps and the Workspace published to the logged in user will show up, click on **Microsoft Teams** application to access it.
 
    ![ws name.](media/img46.png)
