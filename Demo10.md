@@ -110,7 +110,7 @@ Likewise, you can also see a list of impacted **Users**, **Mailboxes**, all auto
  
   You can see your score changes since your last discussion or check in. And any risk acceptance trends for the improvement actions, where you've opted out or said that you want to accept the risk of not implementing. 
 
-     ![ws name.](media/upd10-7.png)
+![ws name.](media/upd10-7.png)
 
 
 Now moving to **Endpoints** section, you will have tabs as listed below:

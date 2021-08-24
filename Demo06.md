@@ -37,9 +37,9 @@ https://aka.ms/wvdarmweb
 ![ws name.](media/demo04.png)
     
     
-> **Note:** If there's a dialog box with More information required, select **Skip** for now option.
->    
-![ws name.](media/img3.png)
+>**Note:** If you are asked for MFA, Scan the below QR Code on your phone's Authenticator App and use the 6 digit code for MFA Authentication.
+>
+![ws name.](media/userqr.png)
 >
 
 7. The RemoteApps and the Workspace published to the logged in user will show up, click on **Excel** application to access it.
@@ -129,10 +129,9 @@ https://aka.ms/wvdarmweb
   
 ![ws name.](media/demo18.png)
 
-
-> **Note:** If there's a dialog box with More information required, select Skip for now option.
->    
-![ws name.](media/img3.png)
+>**Note:** If you are asked for MFA, Scan the below QR Code on your phone's Authenticator App and use the 6 digit code for MFA Authentication.
+>
+![ws name.](media/cindyqr.png)
 >
 
 7.	The RemoteApps and the Workspace published to the logged in user will show up, click on **PowerPoint** application to access it.
@@ -143,7 +142,7 @@ https://aka.ms/wvdarmweb
  
 ![ws name.](media/demo06.png)
 
-9.	 Enter the credentials for **Cindy.4896@AVDDemo.com** and click on **Submit**. 
+9. Enter the credentials for **Cindy.4896@AVDDemo.com** and click on **Submit**. 
 
 ![ws name.](media/demo20.png)
 
@@ -166,9 +165,9 @@ https://aka.ms/wvdarmweb
 ![ws name.](media/demo23.png)
 
 
-> **Note:** If there's a dialog box with More information required, select **Skip** for now option.
+>**Note:** If you are asked for MFA, Scan the below QR Code on your phone's Authenticator App and use the 6 digit code for MFA Authentication.
 >
-![ws name.](media/img3.png)
+![ws name.](media/camiliaqr.png)
 >
 
 13.	The RemoteApps and the Workspace published to the logged in user will show up, double click on **Session Desktop** application to access it.
